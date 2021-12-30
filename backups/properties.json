@@ -1,0 +1,753 @@
+{
+    "logic": [
+      {
+        "id": 0,
+        "english": "equals",
+        "latex": "="
+      }
+    ],
+    "operators": [
+      {
+        "id": 1,
+        "english": "plus",
+        "latex": "+"
+      },
+      {
+        "id": 2,
+        "english": "minus",
+        "latex": "-"
+      },
+      {
+        "id": 3,
+        "english": "multiply",
+        "latex": "\\times"
+      },
+      {
+        "id": 4,
+        "english": "divide",
+        "latex": "\\div"
+      },
+      {
+        "id": 5,
+        "english": "dot",
+        "latex": "\\cdot"
+      },
+      {
+        "id": 6,
+        "english": "nabla",
+        "latex": "\\nabla"
+      },
+      {
+        "id": 7,
+        "english": "divergence",
+        "latex": "\\nabla \\cdot"
+      },
+      {
+        "id": 8,
+        "english": "curl",
+        "latex": "\\nabla \\times"
+      }
+    ],
+    "variables": [
+      {
+        "id": 9,
+        "name": "magnetic vector potential",
+        "units": "tesla meter (T⋅m)",
+        "rank": 1,
+        "symbol": "A"
+      },
+      {
+        "id": 10,
+        "name": "area",
+        "units": "square meters (m2)",
+        "rank": 0,
+        "symbol": ""
+      },
+      {
+        "id": 11,
+        "name": "Amplitude",
+        "units": "meter",
+        "rank": 0,
+        "symbol": ""
+      },
+      {
+        "id": 12,
+        "name": "atomic mass number",
+        "units": "unitless",
+        "rank": 0,
+        "symbol": ""
+      },
+      {
+        "id": 13,
+        "name": "acceleration",
+        "units": "meters per second squared (m/s2)",
+        "rank": 1,
+        "symbol": ""
+      },
+      {
+        "id": 14,
+        "name": [
+          "magnetic flux density",
+          "magnetic field density",
+          "magnetic induction"
+        ],
+        "units": [
+          "tesla (T)",
+          "weber per square meter (Wb/m2)"
+        ],
+        "rank": 1,
+        "symbol": ""
+      },
+      {
+        "id": 15,
+        "name": "capacitance",
+        "units": "farad (F)",
+        "rank": 0,
+        "symbol": ""
+      },
+      {
+        "id": 16,
+        "name": "heat capacity",
+        "units": "joule per kelvin (J⋅K−1)",
+        "rank": 0,
+        "symbol": ""
+      },
+      {
+        "id": 17,
+        "name": "specific heat capacity",
+        "units": "joule per kilogram per kelvin (J⋅kg−1⋅K−1)",
+        "rank": 0,
+        "symbol": "c"
+      },
+      {
+        "id": 18,
+        "name": "viscous damping coefficient",
+        "units": "kilogram per second (kg/s)",
+        "rank": 0,
+        "symbol": "c"
+      },
+      {
+        "id": 19,
+        "name": [
+          "Delectric displacement field",
+          "electric flux density"
+        ],
+        "units": "coulomb per square meter (C/m2)",
+        "rank": 1,
+        "symbol": "D"
+      },
+      {
+        "id": 20,
+        "name": "density",
+        "units": "kilograms per cubic meter (kg/m3)",
+        "rank": 0,
+        "symbol": "D"
+      },
+      {
+        "id": 21,
+        "name": "distance",
+        "units": "meter (m)",
+        "rank": 0,
+        "symbol": "d"
+      },
+      {
+        "id": 22,
+        "name": "impact parameter",
+        "units": "meter (m)",
+        "rank": 0,
+        "symbol": "d"
+      },
+      {
+        "id": 23,
+        "name": "diameter",
+        "units": "meter (m)",
+        "rank": 0,
+        "symbol": "d"
+      },
+      {
+        "id": 24,
+        "name": "electric field",
+        "units": [
+          "newton per coulomb (N⋅C−1)",
+          "volt per meter (V⋅m−1)"
+        ],
+        "rank": 1,
+        "symbol": "E"
+      },
+      {
+        "id": 25,
+        "name": "energy",
+        "units": "joule (J)",
+        "rank": 0,
+        "symbol": "E"
+      },
+      {
+        "id": 26,
+        "name": "Young's Modulus",
+        "units": [
+          "pascal (Pa)",
+          "newton per square meter (N/m2)"
+        ],
+        "rank": 0,
+        "symbol": "E"
+      },
+      {
+        "id": 27,
+        "name": "eccentricity",
+        "units": "unitless",
+        "rank": 0,
+        "symbol": "e"
+      },
+      {
+        "id": 28,
+        "name": "force",
+        "units": "newton (N)",
+        "rank": 1,
+        "symbol": "F"
+      },
+      {
+        "id": 29,
+        "name": "frequency",
+        "units": "hertz (Hz)",
+        "rank": 0,
+        "symbol": "f"
+      },
+      {
+        "id": 30,
+        "name": "friction",
+        "units": "newton (N)",
+        "rank": 0,
+        "symbol": "d"
+      },
+      {
+        "id": 31,
+        "name": "electrical conductance",
+        "units": "siemens (S)",
+        "rank": 0,
+        "symbol": "G"
+      },
+      {
+        "id": 32,
+        "name": [
+          "Shear Modulus",
+          "shear force"
+        ],
+        "units": [
+          "pascal (Pa)",
+          "newton per square meter (N/m2)"
+        ],
+        "rank": 0,
+        "symbol": [
+          "G",
+          "V"
+        ]
+      },
+      {
+        "id": 33,
+        "name": "magnetic field strength",
+        "units": "ampere per meter (A/m)",
+        "rank": 1,
+        "symbol": "H"
+      },
+      {
+        "id": 34,
+        "name": "Hamiltonian",
+        "units": "joule (J)",
+        "rank": 0,
+        "symbol": "H"
+      },
+      {
+        "id": 35,
+        "name": "height",
+        "units": "meter (m)",
+        "rank": 0,
+        "symbol": "h"
+      },
+      {
+        "id": 36,
+        "name": "action",
+        "units": "joule second (J⋅s)",
+        "rank": 0,
+        "symbol": "I"
+      },
+      {
+        "id": 37,
+        "name": "intensity",
+        "units": "watt per square meter (W/m2)",
+        "rank": 0,
+        "symbol": [
+          "I",
+          "i"
+        ]
+      },
+      {
+        "id": 38,
+        "name": "sound intensity",
+        "units": "watt per square meter (W/m2)",
+        "rank": 0,
+        "symbol": "I"
+      },
+      {
+        "id": 39,
+        "name": "electrical current",
+        "units": "ampere (A)",
+        "rank": 0,
+        "symbol": "I"
+      },
+      {
+        "id": 40,
+        "name": "moment of inertia",
+        "units": "kilogram meter squared (kg⋅m2)",
+        "rank": 0,
+        "symbol": "I"
+      },
+      {
+        "id": 41,
+        "name": "current density",
+        "units": "ampere per square meter (A/m2)",
+        "rank": 1,
+        "symbol": "J"
+      },
+      {
+        "id": 42,
+        "name": "impulse",
+        "units": "kilogram meter per second (kg⋅m/s)",
+        "rank": 0,
+        "symbol": "J"
+      },
+      {
+        "id": 43,
+        "name": "jerk",
+        "units": "meters per second cubed (m/s3)",
+        "rank": 1,
+        "symbol": "j"
+      },
+      {
+        "id": 44,
+        "name": "kinetic energy",
+        "units": "joule (J)",
+        "rank": 0,
+        "symbol": "K"
+      },
+      {
+        "id": 45,
+        "name": [
+          "wavenumber",
+          "wave vector"
+        ],
+        "units": "radians per meter (m−1)",
+        "rank": 0,
+        "symbol": "k"
+      },
+      {
+        "id": 46,
+        "name": "stiffness",
+        "units": "ewtons per meter (N⋅m−1)",
+        "rank": 0,
+        "symbol": "k"
+      },
+      {
+        "id": 47,
+        "name": "inductance",
+        "units": "henry (H)",
+        "rank": 0,
+        "symbol": "L"
+      },
+      {
+        "id": 48,
+        "name": "luminosity",
+        "units": "watt (W)",
+        "rank": 0,
+        "symbol": "L"
+      },
+      {
+        "id": 49,
+        "name": "angular momentum",
+        "units": "newton meter second (N⋅m⋅s or kg⋅m2⋅s−1)",
+        "rank": 0,
+        "symbol": "L"
+      },
+      {
+        "id": 50,
+        "name": "Lagrangian",
+        "units": "joule (J)",
+        "rank": 0,
+        "symbol": "L"
+      },
+      {
+        "id": 51,
+        "name": "length",
+        "units": "meter (m)",
+        "rank": 0,
+        "symbol": "l"
+      },
+      {
+        "id": 52,
+        "name": "azimuthal quantum number",
+        "units": "unitless",
+        "rank": 0,
+        "symbol": "ℓ"
+      },
+      {
+        "id": 53,
+        "name": "magnetization",
+        "units": "amperes per meter (A/m)",
+        "rank": 0,
+        "symbol": "M"
+      },
+      {
+        "id": 54,
+        "name": [
+          "moment",
+          "moment of force",
+          "torque"
+        ],
+        "units": "newton meter (N⋅m)",
+        "rank": 0,
+        "symbol": "M"
+      },
+      {
+        "id": 55,
+        "name": "mass",
+        "units": "kilogram (kg)",
+        "rank": 0,
+        "symbol": "m"
+      },
+      {
+        "id": 56,
+        "name": "atomic number",
+        "units": "unitless",
+        "rank": 0,
+        "symbol": "N"
+      },
+      {
+        "id": 57,
+        "name": "refractive index",
+        "units": "unitless",
+        "rank": 0,
+        "symbol": "n"
+      },
+      {
+        "id": 58,
+        "name": "principal quantum number",
+        "units": "unitless",
+        "rank": 0,
+        "symbol": "n"
+      },
+      {
+        "id": 59,
+        "name": "amount of substance",
+        "units": "mole",
+        "rank": 0,
+        "symbol": "n"
+      },
+      {
+        "id": 60,
+        "name": "power",
+        "units": "watt (W)",
+        "rank": 0,
+        "symbol": "P"
+      },
+      {
+        "id": 61,
+        "name": "momentum",
+        "units": "kilogram meter per second (kg⋅m/s)",
+        "rank": 1,
+        "symbol": "p"
+      },
+      {
+        "id": 62,
+        "name": "pressure",
+        "units": "pascal (Pa)",
+        "rank": 0,
+        "symbol": "p"
+      },
+      {
+        "id": 63,
+        "name": "electric charge",
+        "units": "oulomb (C)",
+        "rank": 0,
+        "symbol": [
+          "Q",
+          "q"
+        ]
+      },
+      {
+        "id": 64,
+        "name": "Heat",
+        "units": "joule (J)",
+        "rank": 0,
+        "symbol": "Q"
+      },
+      {
+        "id": 65,
+        "name": "electrical resistance",
+        "units": "ohm (Ω)",
+        "rank": 0,
+        "symbol": "R"
+      },
+      {
+        "id": 66,
+        "name": "Ricci tensor",
+        "units": "reciprocal square meter (m−2)",
+        "rank": 0,
+        "symbol": "R"
+      },
+      {
+        "id": 67,
+        "name": "radiancy",
+        "units": "meter per second",
+        "rank": 0,
+        "symbol": "R"
+      },
+      {
+        "id": 68,
+        "name": "displacement",
+        "units": "meter (m)",
+        "rank": 0,
+        "symbol": [
+          "s",
+          "x"
+        ]
+      },
+      {
+        "id": 69,
+        "name": "position vector",
+        "units": "meter (m)",
+        "rank": 1,
+        "symbol": [
+          "r",
+          "x"
+        ]
+      },
+      {
+        "id": 70,
+        "name": "surface area",
+        "units": "square meters (m2)",
+        "rank": 0,
+        "symbol": "S"
+      },
+      {
+        "id": 71,
+        "name": "entropy",
+        "units": "joule per kelvin (J/K)",
+        "rank": 0,
+        "symbol": "S"
+      },
+      {
+        "id": 72,
+        "name": "action",
+        "units": "joule second (J⋅s)",
+        "rank": 0,
+        "symbol": "S"
+      },
+      {
+        "id": 73,
+        "name": "arc length",
+        "units": "meter (m)",
+        "rank": 0,
+        "symbol": "s"
+      },
+      {
+        "id": 74,
+        "name": "period",
+        "units": "second (s)",
+        "rank": 0,
+        "symbol": "T"
+      },
+      {
+        "id": 75,
+        "name": "temperature",
+        "units": [
+          "kelvin (K)",
+          "Celsius (C)"
+        ],
+        "rank": 0,
+        "symbol": "T"
+      },
+      {
+        "id": 76,
+        "name": "time",
+        "units": "second (s)",
+        "rank": 0,
+        "symbol": "t"
+      },
+      {
+        "id": 77,
+        "name": "four-velocity",
+        "units": "meter per second (m/s)",
+        "rank": 1,
+        "symbol": "U"
+      },
+      {
+        "id": 78,
+        "name": "potential energy",
+        "units": "joule (J)",
+        "rank": 0,
+        "symbol": "U"
+      },
+      {
+        "id": 79,
+        "name": "internal energy",
+        "units": "joule (J)",
+        "rank": 0,
+        "symbol": "U"
+      },
+      {
+        "id": 80,
+        "name": "relativistic mass",
+        "units": "kilogram (kg)",
+        "rank": 0,
+        "symbol": "u"
+      },
+      {
+        "id": 81,
+        "name": "energy density (J/m3)",
+        "units": [
+          "joule per cubic meter (J/m3)"
+        ],
+        "rank": 0,
+        "symbol": "u"
+      },
+      {
+        "id": 82,
+        "name": "energy density (J/kg)",
+        "units": [
+          "joule per kilogram (J/kg)"
+        ],
+        "rank": 0,
+        "symbol": "u"
+      },
+      {
+        "id": 83,
+        "name": [
+          "voltage",
+          "electric potential difference"
+        ],
+        "units": "volts (V)",
+        "rank": 0,
+        "symbol": "V"
+      },
+      {
+        "id": 84,
+        "name": "volume",
+        "units": "cubic meter (m3)",
+        "rank": 0,
+        "symbol": "V"
+      },
+      {
+        "id": 85,
+        "name": "velocity",
+        "units": "meter per second (m/s)",
+        "rank": 1,
+        "symbol": "v"
+      },
+      {
+        "id": 86,
+        "name": "weight",
+        "units": "newton (N)",
+        "rank": 0,
+        "symbol": "W"
+      },
+      {
+        "id": 87,
+        "name": "mechanical work",
+        "units": "joule (J)",
+        "rank": 0,
+        "symbol": "W"
+      },
+      {
+        "id": 88,
+        "name": "width",
+        "units": "meter (m)",
+        "rank": 0,
+        "symbol": "w"
+      },
+      {
+        "id": 89,
+        "name": "electrical impedance",
+        "units": "ohm (Ω)",
+        "rank": 0,
+        "symbol": "Z"
+      }
+    ],
+    "constants": [
+      {
+        "id": 90,
+        "name": "speed of light",
+        "value": 299792458,
+        "units": "meter per second (m/s)",
+        "rank": 0,
+        "symbol": "c"
+      },
+      {
+        "id": 91,
+        "name": "exponential",
+        "value": 2.71828,
+        "units": "unitless",
+        "rank": 0,
+        "symbol": "e"
+      },
+      {
+        "id": 92,
+        "name": "elementary charge",
+        "value": 1,
+        "units": "coulomb (C)",
+        "rank": 0,
+        "symbol": "e"
+      },
+      {
+        "id": 93,
+        "name": "Faraday constant",
+        "value": 1,
+        "units": "coulombs per mole (C⋅mol−1)",
+        "rank": 0,
+        "symbol": "F"
+      },
+      {
+        "id": 94,
+        "name": "universal gravitational constant",
+        "value": 1,
+        "units": "newton meter squared per kilogram squared (N⋅m2/kg2)",
+        "rank": 0,
+        "symbol": "G"
+      },
+      {
+        "id": 95,
+        "name": "Planck constant",
+        "value": 1,
+        "units": "joule second (J⋅s)",
+        "rank": 0,
+        "symbol": ""
+      },
+      {
+        "id": 96,
+        "name": "imaginary number",
+        "value": "i",
+        "units": "unitless",
+        "rank": 0,
+        "symbol": "i"
+      },
+      {
+        "id": 97,
+        "name": "Cartesian x-axis basis unit vector",
+        "units": "unitless",
+        "rank": 1,
+        "symbol": "i"
+      },
+      {
+        "id": 98,
+        "name": "Boltzmann constant",
+        "units": "joule per kelvin (J/K)",
+        "rank": 0,
+        "symbol": "k"
+      },
+      {
+        "id": 99,
+        "name": "gas constant",
+        "units": "joule per mole per kelvin (J⋅mol−1⋅K−1)",
+        "rank": 0,
+        "symbol": "R"
+      }
+    ]
+}

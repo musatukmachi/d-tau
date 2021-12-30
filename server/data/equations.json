@@ -1,0 +1,72 @@
+{
+  "classical mechanics": [
+    {
+      "latex": "m=\\int \\lambda {\\mathrm  {d}}\\ell ",
+      "arr": []
+    },
+    {
+      "latex": "m=\\iint \\sigma {\\mathrm  {d}}S",
+      "arr": []
+    },
+    {
+      "latex": "{\\displaystyle m=\\iiint \\rho \\mathrm {d} V}",
+      "arr": []
+    },
+    {
+      "latex": "{\\displaystyle \\mathbf {m} =\\mathbf {r} m}",
+      "arr": []
+    },
+    {
+      "latex": "{\\displaystyle \\mathbf {m} =\\sum _{i=1}^{N}\\mathbf {r} _{\\mathrm {i} }m_{i}}",
+      "arr": []
+    },
+    {
+      "latex": "{\\displaystyle \\mathbf {m} =\\int \\rho \\left(\\mathbf {r} \\right)x_{i}\\mathrm {d} \\mathbf {r} }",
+      "arr": []
+    },
+    {
+      "latex": "{\\displaystyle \\mathbf {m} _{\\mathrm {i} }=\\mathbf {r} _{\\mathrm {i} }m_{i}}",
+      "arr": []
+    },
+    {
+      "latex": "{\\displaystyle \\mathbf {r} _{\\mathrm {com} }={\\frac {1}{M}}\\sum _{i}\\mathbf {r} _{\\mathrm {i} }m_{i}={\\frac {1}{M}}\\sum _{i}\\mathbf {m} _{\\mathrm {i} }}",
+      "arr": []
+    },
+    {
+      "latex": "{\\displaystyle \\mathbf {r} _{\\mathrm {com} }={\\frac {1}{M}}\\int \\mathrm {d} \\mathbf {m} ={\\frac {1}{M}}\\int \\mathbf {r} \\mathrm {d} m={\\frac {1}{M}}\\int \\mathbf {r} \\rho \\mathrm {d} V}",
+      "arr": []
+    },
+    {
+      "latex": "{\\displaystyle \\mu =\\left(m_{1}m_{2}\\right)/\\left(m_{1}+m_{2}\\right)}",
+      "arr": []
+    },
+    {
+      "latex": "{\\displaystyle I=\\sum _{i}\\mathbf {m} _{\\mathrm {i} }\\cdot \\mathbf {r} _{\\mathrm {i} }=\\sum _{i}\\left|\\mathbf {r} _{\\mathrm {i} }\\right|^{2}m}",
+      "arr": []
+    },
+    {
+      "latex": "{\\displaystyle I=\\int \\left|\\mathbf {r} \\right|^{2}\\mathrm {d} m=\\int \\mathbf {r} \\cdot \\mathrm {d} \\mathbf {m} =\\int \\left|\\mathbf {r} \\right|^{2}\\rho \\mathrm {d} V}",
+      "arr": []
+    },
+    {
+      "latex": "{\\displaystyle \\mathbf {v} =\\mathrm {d} \\mathbf {r} /\\mathrm {d} t}",
+      "arr": []
+    },
+    {
+      "latex": "{\\displaystyle \\mathbf {a} =\\mathrm {d} \\mathbf {v} /\\mathrm {d} t=\\mathrm {d} ^{2}\\mathbf {r} /\\mathrm {d} t^{2}}",
+      "arr": []
+    },
+    {
+      "latex": "{\\displaystyle {\\boldsymbol {\\omega }}=\\mathbf {\\hat {n}} \\left(\\mathrm {d} \\theta /\\mathrm {d} t\\right)}",
+      "arr": []
+    },
+    {
+      "latex": "{\\displaystyle {\\boldsymbol {\\alpha }}=\\mathrm {d} {\\boldsymbol {\\omega }}/\\mathrm {d} t=\\mathbf {\\hat {n}} \\left(\\mathrm {d} ^{2}\\theta /\\mathrm {d} t^{2}\\right)}",
+      "arr": []
+    },
+    {
+      "latex": "{\\displaystyle \\mathbf {p} =m\\mathbf {v} }",
+      "arr": []
+    }
+  ]
+}
