@@ -41,6 +41,56 @@ document.querySelector('.eq-all').addEventListener("click", () =>
     httpGet('http://localhost:3000/equations');
 });
 
+document.querySelector('.cm').addEventListener("click", () =>
+{
+    httpGet('http://localhost:3000/equations?branch=classical+mechanics');
+});
+
+document.querySelector('.thermo').addEventListener("click", () =>
+{
+    httpGet('http://localhost:3000/equations?branch=thermodynamics');
+});
+
+document.querySelector('.wave').addEventListener("click", () =>
+{
+    httpGet('http://localhost:3000/equations?branch=wave+theory');
+});
+
+document.querySelector('.sr').addEventListener("click", () =>
+{
+    httpGet('http://localhost:3000/equations?branch=special+relativity');
+});
+
+document.querySelector('.fm').addEventListener("click", () =>
+{
+    httpGet('http://localhost:3000/equations?branch=fluid+mechanics');
+});
+
+document.querySelector('.em').addEventListener("click", () =>
+{
+    httpGet('http://localhost:3000/equations?branch=electromagnetism');
+});
+
+document.querySelector('.grav').addEventListener("click", () =>
+{
+    httpGet('http://localhost:3000/equations?branch=gravitation');
+});
+
+document.querySelector('.opt').addEventListener("click", () =>
+{
+    httpGet('http://localhost:3000/equations?branch=optics');
+});
+
+document.querySelector('.qm').addEventListener("click", () =>
+{
+    httpGet('http://localhost:3000/equations?branch=quantum+mechanics');
+});
+
+document.querySelector('.pp').addEventListener("click", () =>
+{
+    httpGet('http://localhost:3000/equations?branch=particle+physics');
+});
+
 document.querySelector('.eq-add').addEventListener("click", () =>
 {
     const template = {

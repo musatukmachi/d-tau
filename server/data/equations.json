@@ -1,72 +1,3358 @@
 {
-  "classical mechanics": [
-    {
-      "latex": "m=\\int \\lambda {\\mathrm  {d}}\\ell ",
-      "arr": []
-    },
-    {
-      "latex": "m=\\iint \\sigma {\\mathrm  {d}}S",
-      "arr": []
-    },
-    {
-      "latex": "{\\displaystyle m=\\iiint \\rho \\mathrm {d} V}",
-      "arr": []
-    },
-    {
-      "latex": "{\\displaystyle \\mathbf {m} =\\mathbf {r} m}",
-      "arr": []
-    },
-    {
-      "latex": "{\\displaystyle \\mathbf {m} =\\sum _{i=1}^{N}\\mathbf {r} _{\\mathrm {i} }m_{i}}",
-      "arr": []
-    },
-    {
-      "latex": "{\\displaystyle \\mathbf {m} =\\int \\rho \\left(\\mathbf {r} \\right)x_{i}\\mathrm {d} \\mathbf {r} }",
-      "arr": []
-    },
-    {
-      "latex": "{\\displaystyle \\mathbf {m} _{\\mathrm {i} }=\\mathbf {r} _{\\mathrm {i} }m_{i}}",
-      "arr": []
-    },
-    {
-      "latex": "{\\displaystyle \\mathbf {r} _{\\mathrm {com} }={\\frac {1}{M}}\\sum _{i}\\mathbf {r} _{\\mathrm {i} }m_{i}={\\frac {1}{M}}\\sum _{i}\\mathbf {m} _{\\mathrm {i} }}",
-      "arr": []
-    },
-    {
-      "latex": "{\\displaystyle \\mathbf {r} _{\\mathrm {com} }={\\frac {1}{M}}\\int \\mathrm {d} \\mathbf {m} ={\\frac {1}{M}}\\int \\mathbf {r} \\mathrm {d} m={\\frac {1}{M}}\\int \\mathbf {r} \\rho \\mathrm {d} V}",
-      "arr": []
-    },
-    {
-      "latex": "{\\displaystyle \\mu =\\left(m_{1}m_{2}\\right)/\\left(m_{1}+m_{2}\\right)}",
-      "arr": []
-    },
-    {
-      "latex": "{\\displaystyle I=\\sum _{i}\\mathbf {m} _{\\mathrm {i} }\\cdot \\mathbf {r} _{\\mathrm {i} }=\\sum _{i}\\left|\\mathbf {r} _{\\mathrm {i} }\\right|^{2}m}",
-      "arr": []
-    },
-    {
-      "latex": "{\\displaystyle I=\\int \\left|\\mathbf {r} \\right|^{2}\\mathrm {d} m=\\int \\mathbf {r} \\cdot \\mathrm {d} \\mathbf {m} =\\int \\left|\\mathbf {r} \\right|^{2}\\rho \\mathrm {d} V}",
-      "arr": []
-    },
-    {
-      "latex": "{\\displaystyle \\mathbf {v} =\\mathrm {d} \\mathbf {r} /\\mathrm {d} t}",
-      "arr": []
-    },
-    {
-      "latex": "{\\displaystyle \\mathbf {a} =\\mathrm {d} \\mathbf {v} /\\mathrm {d} t=\\mathrm {d} ^{2}\\mathbf {r} /\\mathrm {d} t^{2}}",
-      "arr": []
-    },
-    {
-      "latex": "{\\displaystyle {\\boldsymbol {\\omega }}=\\mathbf {\\hat {n}} \\left(\\mathrm {d} \\theta /\\mathrm {d} t\\right)}",
-      "arr": []
-    },
-    {
-      "latex": "{\\displaystyle {\\boldsymbol {\\alpha }}=\\mathrm {d} {\\boldsymbol {\\omega }}/\\mathrm {d} t=\\mathbf {\\hat {n}} \\left(\\mathrm {d} ^{2}\\theta /\\mathrm {d} t^{2}\\right)}",
-      "arr": []
-    },
-    {
-      "latex": "{\\displaystyle \\mathbf {p} =m\\mathbf {v} }",
-      "arr": []
-    }
-  ]
+    "classical mechanics": [
+        {
+            "arr": [],
+            "latex": "{\\displaystyle m=\\int \\lambda \\mathrm {d} \\ell }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle m=\\iint \\sigma \\mathrm {d} S}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle m=\\iiint \\rho \\mathrm {d} V}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {m} =\\mathbf {r} m}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle x_{i}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {m} =\\sum _{i=1}^{N}\\mathbf {r} _{\\mathrm {i} }m_{i}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle x_{i}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {m} =\\int \\rho \\left(\\mathbf {r} \\right)x_{i}\\mathrm {d} \\mathbf {r} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {m} _{\\mathrm {i} }=\\mathbf {r} _{\\mathrm {i} }m_{i}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {r} _{\\mathrm {com} }={\\frac {1}{M}}\\sum _{i}\\mathbf {r} _{\\mathrm {i} }m_{i}={\\frac {1}{M}}\\sum _{i}\\mathbf {m} _{\\mathrm {i} }}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {r} _{\\mathrm {com} }={\\frac {1}{M}}\\int \\mathrm {d} \\mathbf {m} ={\\frac {1}{M}}\\int \\mathbf {r} \\mathrm {d} m={\\frac {1}{M}}\\int \\mathbf {r} \\rho \\mathrm {d} V}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mu =\\left(m_{1}m_{2}\\right)/\\left(m_{1}+m_{2}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=\\sum _{i}\\mathbf {m} _{\\mathrm {i} }\\cdot \\mathbf {r} _{\\mathrm {i} }=\\sum _{i}\\left|\\mathbf {r} _{\\mathrm {i} }\\right|^{2}m}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=\\int \\left|\\mathbf {r} \\right|^{2}\\mathrm {d} m=\\int \\mathbf {r} \\cdot \\mathrm {d} \\mathbf {m} =\\int \\left|\\mathbf {r} \\right|^{2}\\rho \\mathrm {d} V}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {v} =\\mathrm {d} \\mathbf {r} /\\mathrm {d} t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {a} =\\mathrm {d} \\mathbf {v} /\\mathrm {d} t=\\mathrm {d} ^{2}\\mathbf {r} /\\mathrm {d} t^{2}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {j} =\\mathrm {d} \\mathbf {a} /\\mathrm {d} t=\\mathrm {d} ^{3}\\mathbf {r} /\\mathrm {d} t^{3}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {s} =\\mathrm {d} \\mathbf {j} /\\mathrm {d} t=\\mathrm {d} ^{4}\\mathbf {r} /\\mathrm {d} t^{4}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\omega }}=\\mathbf {\\hat {n}} \\left(\\mathrm {d} \\theta /\\mathrm {d} t\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\alpha }}=\\mathrm {d} {\\boldsymbol {\\omega }}/\\mathrm {d} t=\\mathbf {\\hat {n}} \\left(\\mathrm {d} ^{2}\\theta /\\mathrm {d} t^{2}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\zeta }}=\\mathrm {d} {\\boldsymbol {\\alpha }}/\\mathrm {d} t=\\mathbf {\\hat {n}} \\left(\\mathrm {d} ^{3}\\theta /\\mathrm {d} t^{3}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {p} =m\\mathbf {v} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {F} =\\mathrm {d} \\mathbf {p} /\\mathrm {d} t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {J} =\\Delta \\mathbf {p} =\\int _{t_{1}}^{t_{2}}\\mathbf {F} \\mathrm {d} t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {L} =\\left(\\mathbf {r} -\\mathbf {r} _{0}\\right)\\times \\mathbf {p} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\tau }}=\\left(\\mathbf {r} -\\mathbf {r} _{0}\\right)\\times \\mathbf {F} =\\mathrm {d} \\mathbf {L} /\\mathrm {d} t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta \\mathbf {L} =\\int _{t_{1}}^{t_{2}}{\\boldsymbol {\\tau }}\\mathrm {d} t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle W=\\int _{C}\\mathbf {F} \\cdot \\mathrm {d} \\mathbf {r} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta W_{\\mathrm {ON} }=-\\Delta W_{\\mathrm {BY} }}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta W=-\\Delta V}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle P=\\mathrm {d} E/\\mathrm {d} t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\dot {q}},{\\dot {Q}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\dot {q}}\\equiv \\mathrm {d} q/\\mathrm {d} t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle p=\\partial L/\\partial {\\dot {q}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle L(\\mathbf {q} ,\\mathbf {\\dot {q}} ,t)=T(\\mathbf {\\dot {q}} )-V(\\mathbf {q} ,\\mathbf {\\dot {q}} ,t)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {q} =\\mathbf {q} (t)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle H(\\mathbf {p} ,\\mathbf {q} ,t)=\\mathbf {p} \\cdot \\mathbf {\\dot {q}} -L(\\mathbf {q} ,\\mathbf {\\dot {q}} ,t)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\scriptstyle {\\mathcal {S}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\mathcal {S}}=\\int _{t_{1}}^{t_{2}}L(\\mathbf {q} ,\\mathbf {\\dot {q}} ,t)\\mathrm {d} t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {\\hat {n}} =\\mathbf {\\hat {e}} _{r}\\times \\mathbf {\\hat {e}} _{\\theta }}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\scriptstyle \\mathbf {\\hat {e}} _{r}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\scriptstyle \\mathbf {\\hat {e}} _{\\theta }}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {v} _{\\mathrm {average} }={\\Delta \\mathbf {r}  \\over \\Delta t}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {v} ={d\\mathbf {r}  \\over dt}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\omega }}=\\mathbf {\\hat {n}} {\\frac {{\\rm {d}}\\theta }{{\\rm {d}}t}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {v} ={\\boldsymbol {\\omega }}\\times \\mathbf {r} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {a} _{\\mathrm {average} }={\\frac {\\Delta \\mathbf {v} }{\\Delta t}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {a} ={\\frac {d\\mathbf {v} }{dt}}={\\frac {d^{2}\\mathbf {r} }{dt^{2}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\alpha }}={\\frac {{\\rm {d}}{\\boldsymbol {\\omega }}}{{\\rm {d}}t}}=\\mathbf {\\hat {n}} {\\frac {{\\rm {d}}^{2}\\theta }{{\\rm {d}}t^{2}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {a} ={\\boldsymbol {\\alpha }}\\times \\mathbf {r} +{\\boldsymbol {\\omega }}\\times \\mathbf {v} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {j} _{\\mathrm {average} }={\\frac {\\Delta \\mathbf {a} }{\\Delta t}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {j} ={\\frac {d\\mathbf {a} }{dt}}={\\frac {d^{2}\\mathbf {v} }{dt^{2}}}={\\frac {d^{3}\\mathbf {r} }{dt^{3}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\zeta }}={\\frac {{\\rm {d}}{\\boldsymbol {\\alpha }}}{{\\rm {d}}t}}=\\mathbf {\\hat {n}} {\\frac {{\\rm {d}}^{2}\\omega }{{\\rm {d}}t^{2}}}=\\mathbf {\\hat {n}} {\\frac {{\\rm {d}}^{3}\\theta }{{\\rm {d}}t^{3}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {j} ={\\boldsymbol {\\zeta }}\\times \\mathbf {r} +{\\boldsymbol {\\alpha }}\\times \\mathbf {a} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {p} =m\\mathbf {v} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {p} ={\\boldsymbol {\\omega }}\\times \\mathbf {m} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {L} =\\mathbf {r} \\times \\mathbf {p} =\\mathbf {I} \\cdot {\\boldsymbol {\\omega }}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}\\mathbf {F} &={\\frac {d\\mathbf {p} }{dt}}={\\frac {d(m\\mathbf {v} )}{dt}}\\\\&=m\\mathbf {a} +\\mathbf {v} {\\frac {{\\rm {d}}m}{{\\rm {d}}t}}\\\\\\end{aligned}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\mathrm {d} \\mathbf {p} _{i}}{\\mathrm {d} t}}=\\mathbf {F} _{E}+\\sum _{i\\neq j}\\mathbf {F} _{ij}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\tau }}={\\frac {{\\rm {d}}\\mathbf {L} }{{\\rm {d}}t}}=\\mathbf {r} \\times \\mathbf {F} ={\\frac {{\\rm {d}}(\\mathbf {I} \\cdot {\\boldsymbol {\\omega }})}{{\\rm {d}}t}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}{\\boldsymbol {\\tau }}&={\\frac {{\\rm {d}}\\mathbf {L} }{{\\rm {d}}t}}={\\frac {{\\rm {d}}(\\mathbf {I} \\cdot {\\boldsymbol {\\omega }})}{{\\rm {d}}t}}\\\\&={\\frac {{\\rm {d}}\\mathbf {I} }{{\\rm {d}}t}}\\cdot {\\boldsymbol {\\omega }}+\\mathbf {I} \\cdot {\\boldsymbol {\\alpha }}\\\\\\end{aligned}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\mathrm {d} \\mathbf {L} _{i}}{\\mathrm {d} t}}={\\boldsymbol {\\tau }}_{E}+\\sum _{i\\neq j}{\\boldsymbol {\\tau }}_{ij}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}\\mathbf {Y} &={\\frac {d\\mathbf {F} }{dt}}={\\frac {d^{2}\\mathbf {p} }{dt^{2}}}={\\frac {d^{2}(m\\mathbf {v} )}{dt^{2}}}\\\\&=m\\mathbf {j} +\\mathbf {2a} {\\frac {{\\rm {d}}m}{{\\rm {d}}t}}+\\mathbf {v} {\\frac {{\\rm {d^{2}}}m}{{\\rm {d}}t^{2}}}\\\\\\end{aligned}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {Y} =m\\mathbf {j} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mathrm {P} }}={\\frac {{\\rm {d}}\\mathbf {\\tau } }{{\\rm {d}}t}}=\\mathbf {r} \\times \\mathbf {Y} ={\\frac {{\\rm {d}}(\\mathbf {I} \\cdot {\\boldsymbol {\\alpha }})}{{\\rm {d}}t}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta \\mathbf {p} =\\int \\mathbf {F} dt}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta \\mathbf {p} =\\mathbf {F} \\Delta t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta \\mathbf {L} =\\int {\\boldsymbol {\\tau }}dt}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta \\mathbf {L} ={\\boldsymbol {\\tau }}\\Delta t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\Omega }}={\\frac {wr}{I{\\boldsymbol {\\omega }}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle W=\\Delta T=\\int _{C}\\left(\\mathbf {F} \\cdot \\mathrm {d} \\mathbf {r} +{\\boldsymbol {\\tau }}\\cdot \\mathbf {n} {\\mathrm {d} \\theta }\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta E_{k}=W={\\frac {1}{2}}m(v^{2}-{v_{0}}^{2})}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta E_{p}={\\frac {1}{2}}k(r_{2}-r_{1})^{2}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {I} \\cdot {\\boldsymbol {\\alpha }}+{\\boldsymbol {\\omega }}\\times \\left(\\mathbf {I} \\cdot {\\boldsymbol {\\omega }}\\right)={\\boldsymbol {\\tau }}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {r} =\\mathbf {r} (t)=r\\mathbf {\\hat {e}} _{r}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {r} =\\mathbf {r} \\left(r,\\theta ,t\\right)=r\\mathbf {\\hat {e}} _{r}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {v} =\\mathbf {\\hat {e}} _{r}{\\frac {\\mathrm {d} r}{\\mathrm {d} t}}+r\\omega \\mathbf {\\hat {e}} _{\\theta }}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {p} =m\\left(\\mathbf {\\hat {e}} _{r}{\\frac {\\mathrm {d} r}{\\mathrm {d} t}}+r\\omega \\mathbf {\\hat {e}} _{\\theta }\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {L} =m\\mathbf {r} \\times \\left(\\mathbf {\\hat {e}} _{r}{\\frac {\\mathrm {d} r}{\\mathrm {d} t}}+r\\omega \\mathbf {\\hat {e}} _{\\theta }\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {a} =\\left({\\frac {\\mathrm {d} ^{2}r}{\\mathrm {d} t^{2}}}-r\\omega ^{2}\\right)\\mathbf {\\hat {e}} _{r}+\\left(r\\alpha +2\\omega {\\frac {\\mathrm {d} r}{{\\rm {d}}t}}\\right)\\mathbf {\\hat {e}} _{\\theta }}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {F} _{\\bot }=-m\\omega ^{2}R\\mathbf {\\hat {e}} _{r}=-\\omega ^{2}\\mathbf {m} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {F} _{c}=2\\omega m{\\frac {{\\rm {d}}r}{{\\rm {d}}t}}\\mathbf {\\hat {e}} _{\\theta }=2\\omega mv\\mathbf {\\hat {e}} _{\\theta }}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {F} _{c}=m\\mathbf {a} _{c}=-2m{\\boldsymbol {\\omega \\times v}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {d^{2}}{d\\theta ^{2}}}\\left({\\frac {1}{\\mathbf {r} }}\\right)+{\\frac {1}{\\mathbf {r} }}=-{\\frac {\\mu \\mathbf {r} ^{2}}{\\mathbf {l} ^{2}}}\\mathbf {F} (\\mathbf {r} )}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle v=v_{0}+at}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\omega _{1}=\\omega _{0}+\\alpha t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle s={\\frac {1}{2}}(v_{0}+v)t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\theta ={\\frac {1}{2}}(\\omega _{0}+\\omega _{1})t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle s=v_{0}t+{\\frac {1}{2}}at^{2}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\theta =\\omega _{0}t+{\\frac {1}{2}}\\alpha t^{2}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle v^{2}=v_{0}^{2}+2as}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\omega _{1}^{2}=\\omega _{0}^{2}+2\\alpha \\theta }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle s=vt-{\\frac {1}{2}}at^{2}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\theta =\\omega _{1}t-{\\frac {1}{2}}\\alpha t^{2}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {r} '=\\mathbf {r} +\\mathbf {V} t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {v} '=\\mathbf {v} +\\mathbf {V} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {a} '=\\mathbf {a} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {a} '=\\mathbf {a} +\\mathbf {A} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {F} '=\\mathbf {F} -\\mathbf {F} _{\\mathrm {app} }}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\theta '=\\theta +\\Omega t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\omega }}'={\\boldsymbol {\\omega }}+{\\boldsymbol {\\Omega }}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\alpha }}'={\\boldsymbol {\\alpha }}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\alpha }}'={\\boldsymbol {\\alpha }}+{\\boldsymbol {\\Lambda }}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\tau }}'={\\boldsymbol {\\tau }}-{\\boldsymbol {\\tau }}_{\\mathrm {app} }}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {{\\rm {d}}\\mathbf {T} '}{{\\rm {d}}t}}={\\frac {{\\rm {d}}\\mathbf {T} }{{\\rm {d}}t}}-{\\boldsymbol {\\Omega }}\\times \\mathbf {T} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\mathrm {d} ^{2}x}{\\mathrm {d} t^{2}}}=-\\omega ^{2}x}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle x=A\\sin \\left(\\omega t+\\phi \\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\mathrm {d} ^{2}\\theta }{\\mathrm {d} t^{2}}}=-\\omega ^{2}\\theta }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\theta =\\Theta \\sin \\left(\\omega t+\\phi \\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\mathrm {d} ^{2}x}{\\mathrm {d} t^{2}}}+b{\\frac {\\mathrm {d} x}{\\mathrm {d} t}}+\\omega ^{2}x=0}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle x=Ae^{-bt/2m}\\cos \\left(\\omega '\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\omega _{\\mathrm {res} }={\\sqrt {\\omega ^{2}-\\left({\\frac {b}{4m}}\\right)^{2}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\gamma =b/m}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\tau =1/\\gamma }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\mathrm {d} ^{2}\\theta }{\\mathrm {d} t^{2}}}+b{\\frac {\\mathrm {d} \\theta }{\\mathrm {d} t}}+\\omega ^{2}\\theta =0}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\theta =\\Theta e^{-\\kappa t/2m}\\cos \\left(\\omega \\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\omega _{\\mathrm {res} }={\\sqrt {\\omega ^{2}-\\left({\\frac {\\kappa }{4m}}\\right)^{2}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\gamma =\\kappa /m}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\tau =1/\\gamma }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\omega ={\\sqrt {\\frac {k}{m}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\omega '={\\sqrt {{\\frac {k}{m}}-\\left({\\frac {b}{2m}}\\right)^{2}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\omega ={\\sqrt {\\frac {\\kappa }{I}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\omega ={\\sqrt {\\frac {g}{L}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\omega ={\\sqrt {\\frac {g}{L}}}\\left[1+\\sum _{k=1}^{\\infty }{\\frac {\\prod _{n=1}^{k}\\left(2n-1\\right)}{\\prod _{n=1}^{m}\\left(2n\\right)}}\\sin ^{2n}\\Theta \\right]}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U={\\frac {m}{2}}\\left(x\\right)^{2}={\\frac {m\\left(\\omega A\\right)^{2}}{2}}\\cos ^{2}(\\omega t+\\phi )}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U_{\\mathrm {max} }{\\frac {m}{2}}\\left(\\omega A\\right)^{2}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle T={\\frac {\\omega ^{2}m}{2}}\\left({\\frac {\\mathrm {d} x}{\\mathrm {d} t}}\\right)^{2}={\\frac {m\\left(\\omega A\\right)^{2}}{2}}\\sin ^{2}\\left(\\omega t+\\phi \\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle E=T+U}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle E={\\frac {m\\left(\\omega A\\right)^{2}}{2}}e^{-bt/m}}"
+        }
+    ],
+    "electromagnetism": [
+        {
+            "arr": [],
+            "latex": "{\\displaystyle q_{e}=\\int \\lambda _{e}\\mathrm {d} \\ell }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle q_{e}=\\iint \\sigma _{e}\\mathrm {d} S}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle q_{e}=\\iiint \\rho _{e}\\mathrm {d} V}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C=\\mathrm {d} q/\\mathrm {d} V\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=\\mathrm {d} q/\\mathrm {d} t\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=\\mathbf {J} \\cdot \\mathrm {d} \\mathbf {S} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {J} _{\\mathrm {d} }=\\epsilon _{0}\\left(\\partial \\mathbf {E} /\\partial t\\right)=\\partial \\mathbf {D} /\\partial t\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {J} _{\\mathrm {c} }=\\rho \\mathbf {v} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {E} =\\mathbf {F} /q\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi _{E}=\\int _{S}\\mathbf {E} \\cdot \\mathrm {d} \\mathbf {A} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\epsilon =\\epsilon _{r}\\epsilon _{0}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {p} =q\\mathbf {a} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {P} =\\mathrm {d} \\langle \\mathbf {p} \\rangle /\\mathrm {d} V\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {D} =\\epsilon \\mathbf {E} =\\epsilon _{0}\\mathbf {E} +\\mathbf {P} \\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi _{D}=\\int _{S}\\mathbf {D} \\cdot \\mathrm {d} \\mathbf {A} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle r_{0}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle r_{0}=\\infty \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle r_{0}=R_{\\mathrm {earth} }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V=-{\\frac {W_{\\infty r}}{q}}=-{\\frac {1}{q}}\\int _{\\infty }^{r}\\mathbf {F} \\cdot \\mathrm {d} \\mathbf {r} =-\\int _{r_{1}}^{r_{2}}\\mathbf {E} \\cdot \\mathrm {d} \\mathbf {r} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta V=-{\\frac {\\Delta W}{q}}=-{\\frac {1}{q}}\\int _{r_{1}}^{r_{2}}\\mathbf {F} \\cdot \\mathrm {d} \\mathbf {r} =-\\int _{r_{1}}^{r_{2}}\\mathbf {E} \\cdot \\mathrm {d} \\mathbf {r} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle q_{m}=\\int \\lambda _{m}\\mathrm {d} \\ell }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle q_{m}=\\iint \\sigma _{m}\\mathrm {d} S}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle q_{m}=\\iiint \\rho _{m}\\mathrm {d} V}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I_{m}=\\mathrm {d} q_{m}/\\mathrm {d} t\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=\\iint \\mathbf {J} _{\\mathrm {m} }\\cdot \\mathrm {d} \\mathbf {A} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {F} =q_{e}\\left(\\mathbf {v} \\times \\mathbf {B} \\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {B} =\\nabla \\times \\mathbf {A} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi _{B}=\\int _{S}\\mathbf {B} \\cdot \\mathrm {d} \\mathbf {A} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mu \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mu \\ =\\mu _{r}\\,\\mu _{0}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {m} =q_{m}\\mathbf {a} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {m} =NIA\\mathbf {\\hat {n}} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {M} =\\mathrm {d} \\langle \\mathbf {m} \\rangle /\\mathrm {d} V\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {B} =\\mu \\mathbf {H} =\\mu _{0}\\left(\\mathbf {H} +\\mathbf {M} \\right)\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {H} =\\mathbf {F} /q_{m}\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {I} =\\mu \\mathbf {M} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle L=N\\left(\\mathrm {d} \\Phi /\\mathrm {d} I\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle L\\left(\\mathrm {d} I/\\mathrm {d} t\\right)=-NV\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle M_{1}=N\\left(\\mathrm {d} \\Phi _{2}/\\mathrm {d} I_{1}\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle M\\left(\\mathrm {d} I_{2}/\\mathrm {d} t\\right)=-NV_{1}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle M_{2}=N\\left(\\mathrm {d} \\Phi _{1}/\\mathrm {d} I_{2}\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle M\\left(\\mathrm {d} I_{1}/\\mathrm {d} t\\right)=-NV_{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\omega =\\gamma B\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle R_{\\mathrm {int} }=V_{\\mathrm {ter} }/I\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle R_{\\mathrm {ext} }=V_{\\mathrm {load} }/I\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\mathcal {E}}=V_{\\mathrm {ter} }+V_{\\mathrm {load} }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V_{R}=I_{R}R\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V_{C}=I_{C}X_{C}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V_{L}=I_{L}X_{L}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle X_{C}={\\frac {1}{\\omega _{\\mathrm {d} }C}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle X_{L}=\\omega _{d}L\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V=IZ\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Z={\\sqrt {R^{2}+\\left(X_{L}-X_{C}\\right)^{2}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\tan \\phi ={\\frac {X_{L}-X_{C}}{R}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I_{0}=I_{\\mathrm {rms} }{\\sqrt {2}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I_{\\mathrm {rms} }={\\sqrt {{\\frac {1}{T}}\\int _{0}^{T}\\left[I\\left(t\\right)\\right]^{2}\\mathrm {d} t}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V_{0}=V_{\\mathrm {rms} }{\\sqrt {2}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V_{\\mathrm {rms} }={\\sqrt {{\\frac {1}{T}}\\int _{0}^{T}\\left[V\\left(t\\right)\\right]^{2}\\mathrm {d} t}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\mathcal {E}}_{\\mathrm {rms} },{\\sqrt {\\langle {\\mathcal {E}}\\rangle }}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\mathcal {E}}_{\\mathrm {rms} }={\\mathcal {E}}_{\\mathrm {m} }/{\\sqrt {2}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\langle P\\rangle \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\langle P\\rangle ={\\mathcal {E}}I_{\\mathrm {rms} }\\cos \\phi \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\tau _{C}=RC\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\tau _{L}=L/R\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\mathcal {F}},{\\mathcal {M}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\mathcal {M}}=NI}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {E} =-\\nabla V}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta V=-\\int _{r_{1}}^{r_{2}}\\mathbf {E} \\cdot d\\mathbf {r} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {E} ={\\frac {q}{4\\pi \\epsilon _{0}\\left|\\mathbf {r} \\right|^{2}}}\\mathbf {\\hat {r}} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {E} =\\sum \\mathbf {E} _{i}={\\frac {1}{4\\pi \\epsilon _{0}}}\\sum _{i}{\\frac {q_{i}}{\\left|\\mathbf {r} _{i}-\\mathbf {r} \\right|^{2}}}\\mathbf {\\hat {r}} _{i}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {E} ={\\frac {1}{4\\pi \\epsilon _{0}}}\\int _{V}{\\frac {\\mathbf {r} \\rho \\mathrm {d} V}{\\left|\\mathbf {r} \\right|^{3}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\tau }}=\\int _{V}\\mathrm {d} \\mathbf {p} \\times \\mathbf {E} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U=\\int _{V}\\mathrm {d} \\mathbf {p} \\cdot \\mathbf {E} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {B} =\\nabla \\times \\mathbf {A} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {A} ={\\frac {\\mu _{0}}{4\\pi }}{\\frac {\\mathbf {m} \\times \\mathbf {r} }{\\left|\\mathbf {r} \\right|^{3}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {B} ({\\mathbf {r} })=\\nabla \\times {\\mathbf {A} }={\\frac {\\mu _{0}}{4\\pi }}\\left({\\frac {3\\mathbf {r} (\\mathbf {m} \\cdot \\mathbf {r} )}{\\left|\\mathbf {r} \\right|^{5}}}-{\\frac {\\mathbf {m} }{\\left|\\mathbf {r} \\right|^{3}}}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {m} ={\\frac {1}{2}}\\int _{V}\\mathbf {r} \\times \\mathbf {J} \\mathrm {d} V}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\tau }}=\\int _{V}\\mathrm {d} \\mathbf {m} \\times \\mathbf {B} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U=\\int _{V}\\mathrm {d} \\mathbf {m} \\cdot \\mathbf {B} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle R_{\\mathrm {net} }=\\sum _{i=1}^{N}R_{i}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {1 \\over G_{\\mathrm {net} }}=\\sum _{i=1}^{N}{1 \\over G_{i}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {1 \\over R_{\\mathrm {net} }}=\\sum _{i=1}^{N}{1 \\over R_{i}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle G_{\\mathrm {net} }=\\sum _{i=1}^{N}G_{i}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle q_{\\mathrm {net} }=\\sum _{i=1}^{N}q_{i}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {1 \\over C_{\\mathrm {net} }}=\\sum _{i=1}^{N}{1 \\over C_{i}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I_{\\mathrm {net} }=I_{i}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle q_{\\mathrm {net} }=\\sum _{i=1}^{N}q_{i}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{\\mathrm {net} }=\\sum _{i=1}^{N}C_{i}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I_{\\mathrm {net} }=\\sum _{i=1}^{N}I_{i}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle L_{\\mathrm {net} }=\\sum _{i=1}^{N}L_{i}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {1 \\over L_{\\mathrm {net} }}=\\sum _{i=1}^{N}{1 \\over L_{i}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V_{i}=\\sum _{j=1}^{N}L_{ij}{\\frac {\\mathrm {d} I_{j}}{\\mathrm {d} t}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle R{\\frac {\\mathrm {d} q}{\\mathrm {d} t}}+{\\frac {q}{C}}={\\mathcal {E}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle q=C{\\mathcal {E}}\\left(1-e^{-t/RC}\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle q=C{\\mathcal {E}}e^{-t/RC}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle L{\\frac {\\mathrm {d} I}{\\mathrm {d} t}}+RI={\\mathcal {E}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I={\\frac {\\mathcal {E}}{R}}\\left(1-e^{-Rt/L}\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I={\\frac {\\mathcal {E}}{R}}e^{-t/\\tau _{L}}=I_{0}e^{-Rt/L}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle L{\\frac {\\mathrm {d} ^{2}q}{\\mathrm {d} t^{2}}}+q/C={\\mathcal {E}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle L{\\frac {\\mathrm {d} ^{2}q}{\\mathrm {d} t^{2}}}+q/C={\\mathcal {E}}\\sin \\left(\\omega _{0}t+\\phi \\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\omega _{\\mathrm {res} }=1/{\\sqrt {LC}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle q=q_{0}\\cos(\\omega t+\\phi )\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=-\\omega q_{0}\\sin(\\omega t+\\phi )\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U_{E}=q^{2}/2C=Q^{2}\\cos ^{2}(\\omega t+\\phi )/2C\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U_{B}=Q^{2}\\sin ^{2}(\\omega t+\\phi )/2C\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle L{\\frac {\\mathrm {d} ^{2}q}{\\mathrm {d} t^{2}}}+R{\\frac {\\mathrm {d} q}{\\mathrm {d} t}}+{\\frac {q}{C}}={\\mathcal {E}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle L{\\frac {\\mathrm {d} ^{2}q}{\\mathrm {d} t^{2}}}+R{\\frac {\\mathrm {d} q}{\\mathrm {d} t}}+{\\frac {q}{C}}={\\mathcal {E}}\\sin \\left(\\omega _{0}t+\\phi \\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle q=q_{0}eT^{-Rt/2L}\\cos(\\omega 't+\\phi )\\,\\!}"
+        }
+    ],
+    "fluid mechanics": [
+        {
+            "arr": [],
+            "latex": "{\\displaystyle J=-D{\\frac {d\\varphi }{dx}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {\\hat {t}} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {u} =\\mathbf {u} \\left(\\mathbf {r} ,t\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\omega }}=\\nabla \\times \\mathbf {v} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\phi _{V}=\\int _{S}\\mathbf {u} \\cdot \\mathrm {d} \\mathbf {A} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle s=\\mathrm {d} \\rho /\\mathrm {d} t\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I_{\\mathrm {m} }=\\mathrm {d} m/\\mathrm {d} t\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I_{\\mathrm {m} }=\\iint \\mathbf {j} _{\\mathrm {m} }\\cdot \\mathrm {d} \\mathbf {S} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I_{\\mathrm {p} }=\\mathrm {d} \\left|\\mathbf {p} \\right|/\\mathrm {d} t\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I_{\\mathrm {p} }=\\iint \\mathbf {j} _{\\mathrm {p} }\\cdot \\mathrm {d} \\mathbf {S} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\nabla P=\\rho \\mathbf {g} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {F} _{\\mathrm {b} }=-\\rho _{f}V_{\\mathrm {imm} }\\mathbf {g} =-\\mathbf {F} _{\\mathrm {g} }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {W} _{\\mathrm {app} }=\\mathbf {W} -\\mathbf {F} _{\\mathrm {b} }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle p+\\rho u^{2}/2+\\rho gy=p_{\\mathrm {constant} }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\otimes }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\partial \\rho }{\\partial t}}+\\nabla \\cdot (\\rho \\mathbf {u} )=0\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\partial \\rho {\\mathbf {u} }}{\\partial t}}+\\nabla \\cdot \\left(\\mathbf {u} \\otimes \\left(\\rho \\mathbf {u} \\right)\\right)+\\nabla p=0\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\partial E}{\\partial t}}+\\nabla \\cdot \\left(\\mathbf {u} \\left(E+p\\right)\\right)=0\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle E=\\rho \\left(U+{\\frac {1}{2}}\\mathbf {u} ^{2}\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {a} =\\left(\\mathbf {u} \\cdot \\nabla \\right)\\mathbf {u} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {f} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\nabla }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\rho \\left({\\frac {\\partial \\mathbf {u} }{\\partial t}}+\\mathbf {u} \\cdot \\nabla \\mathbf {u} \\right)=-\\nabla p+\\nabla \\cdot \\mathbf {T} _{\\mathrm {D} }+\\mathbf {f} }"
+        }
+    ],
+    "gravitation": [
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {m} _{i}=\\mathbf {r} _{i}m_{i}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}\\mathbf {r} _{\\mathrm {cog} }&={\\frac {1}{M\\left|\\mathbf {g} \\left(\\mathbf {r} _{i}\\right)\\right|}}\\sum _{i}\\mathbf {m} _{i}\\left|\\mathbf {g} \\left(\\mathbf {r} _{i}\\right)\\right|\\\\&={\\frac {1}{M\\left|\\mathbf {g} \\left(\\mathbf {r} _{\\mathrm {cog} }\\right)\\right|}}\\sum _{i}\\mathbf {r} _{i}m_{i}\\left|\\mathbf {g} \\left(\\mathbf {r} _{i}\\right)\\right|\\end{aligned}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}\\mathbf {r} _{\\mathrm {cog} }&={\\frac {1}{M\\left|\\mathbf {g} \\left(\\mathbf {r} _{\\mathrm {cog} }\\right)\\right|}}\\int \\left|\\mathbf {g} \\left(\\mathbf {r} \\right)\\right|\\mathrm {d} \\mathbf {m} \\\\&={\\frac {1}{M\\left|\\mathbf {g} \\left(\\mathbf {r} _{\\mathrm {cog} }\\right)\\right|}}\\int \\mathbf {r} \\left|\\mathbf {g} \\left(\\mathbf {r} \\right)\\right|\\mathrm {d} ^{n}m\\\\&={\\frac {1}{M\\left|\\mathbf {g} \\left(\\mathbf {r} _{\\mathrm {cog} }\\right)\\right|}}\\int \\mathbf {r} \\rho _{n}\\left|\\mathbf {g} \\left(\\mathbf {r} \\right)\\right|\\mathrm {d} ^{n}x\\end{aligned}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mu =Gm\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {g} =\\mathbf {F} /m\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi _{G}=\\int _{S}\\mathbf {g} \\cdot \\mathrm {d} \\mathbf {A} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U=-{\\frac {W_{\\infty r}}{m}}=-{\\frac {1}{m}}\\int _{\\infty }^{r}\\mathbf {F} \\cdot \\mathrm {d} \\mathbf {r} =-\\int _{\\infty }^{r}\\mathbf {g} \\cdot \\mathrm {d} \\mathbf {r} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta U=-{\\frac {W}{m}}=-{\\frac {1}{m}}\\int _{r_{1}}^{r_{2}}\\mathbf {F} \\cdot \\mathrm {d} \\mathbf {r} =-\\int _{r_{1}}^{r_{2}}\\mathbf {g} \\cdot \\mathrm {d} \\mathbf {r} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle E_{p}=-W_{\\infty r}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\Omega }}=2{\\boldsymbol {\\xi }}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi _{\\Omega }=\\int _{S}{\\boldsymbol {\\Omega }}\\cdot \\mathrm {d} \\mathbf {A} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {F} =m\\left(\\mathbf {v} \\times 2{\\boldsymbol {\\xi }}\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi _{\\xi }=\\int _{S}{\\boldsymbol {\\xi }}\\cdot \\mathrm {d} \\mathbf {A} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {\\xi } =\\nabla \\times \\mathbf {h} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {g} =-\\nabla U}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta U=-\\int _{C}\\mathbf {g} \\cdot d\\mathbf {r} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {g} ={\\frac {Gm}{\\left|\\mathbf {r} \\right|^{2}}}\\mathbf {\\hat {r}} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {g} =\\sum _{i}\\mathbf {g} _{i}=G\\sum _{i}{\\frac {m_{i}}{\\left|\\mathbf {r} _{i}-\\mathbf {r} \\right|^{2}}}\\mathbf {\\hat {r}} _{i}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\tau }}=\\int _{V_{n}}\\mathrm {d} \\mathbf {m} \\times \\mathbf {g} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U=\\int _{V_{n}}\\mathrm {d} \\mathbf {m} \\cdot \\mathbf {g} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\phi }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {\\hat {a}} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {g} =-{\\frac {GM}{\\left|\\mathbf {r} \\right|^{2}}}\\mathbf {\\hat {r}} -(\\left|{\\boldsymbol {\\omega }}\\right|^{2}\\left|\\mathbf {r} \\right|\\sin \\phi )\\mathbf {\\hat {a}} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U=-{\\frac {Gm_{1}m_{2}}{\\left|\\mathbf {r} \\right|}}\\approx m\\left|\\mathbf {g} \\right|y\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle v={\\sqrt {\\frac {2GM}{r}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}E&=T+U\\\\&=-{\\frac {GmM}{\\left|\\mathbf {r} \\right|}}+{\\frac {1}{2}}m\\left|\\mathbf {v} \\right|^{2}\\\\&=m\\left(-{\\frac {GM}{\\left|\\mathbf {r} \\right|}}+{\\frac {\\left|{\\boldsymbol {\\omega }}\\times \\mathbf {r} \\right|^{2}}{2}}\\right)\\\\&=-{\\frac {GmM}{2\\left|\\mathbf {r} \\right|}}\\end{aligned}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\xi }}={\\frac {G}{2c^{2}}}{\\frac {\\mathbf {L} 3(\\mathbf {L} \\cdot \\mathbf {\\hat {r}} )\\mathbf {\\hat {r}} }{\\left|\\mathbf {r} \\right|^{3}}}}"
+        }
+    ],
+    "particle physics": [
+        {
+            "arr": [],
+            "latex": "{\\displaystyle N_{0}=N+N_{D}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle A=\\lambda N\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\lambda =A/N\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle t\\rightarrow t+T_{1/2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle N\\rightarrow N/2\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle n=t/T_{1/2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\tau =1/\\lambda \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle H=DQ\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle E=\\sum _{j}H_{j}W_{j}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\sum _{j}W_{j}=1\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle A=Z+N\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle M_{\\Sigma }=Zm_{p}+Nm_{n}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle M_{\\Sigma }>M_{N}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta M=M_{\\Sigma }-M_{\\mathrm {nuc} }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta E=\\Delta Mc^{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle r=r_{0}A^{1/3}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}E_{B}=&a_{v}A-a_{s}A^{2/3}-a_{c}Z(Z-1)A^{-1/3}\\\\&-a_{a}(N-Z)^{2}A^{-1}+12\\delta (N,Z)A^{-1/2}\\\\\\end{aligned}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\mathrm {d} N}{\\mathrm {d} t}}=-\\lambda N}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle N=N_{0}e^{-\\lambda t}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle c_{i}=\\prod _{j=1,i\\neq j}^{D}{\\frac {\\lambda _{j}}{\\lambda _{j}-\\lambda _{i}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle N_{D}={\\frac {N_{1}(0)}{\\lambda _{D}}}\\sum _{i=1}^{D}\\lambda _{i}c_{i}e^{-\\lambda _{i}t}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=I_{0}e^{-\\mu x}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\sigma (E)={\\frac {\\pi g}{k^{2}}}{\\frac {\\Gamma _{ab}\\Gamma _{c}}{(E-E_{0})^{2}+\\Gamma ^{2}/4}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle g={\\frac {2J+1}{(2s_{a}+1)(2s_{b}+1)}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Gamma =\\Gamma _{ab}+\\Gamma _{c}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\tau =\\hbar /\\Gamma }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {d\\sigma }{d\\Omega }}=\\left|{\\frac {2\\mu }{\\hbar ^{2}}}\\int _{0}^{\\infty }{\\frac {\\sin(\\Delta kr)}{\\Delta kr}}V(r)r^{2}dr\\right|^{2}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {d\\sigma }{d\\Omega }}=\\left({\\frac {\\alpha }{4E}}\\right)\\left[\\csc ^{4}{\\frac {\\chi }{2}}+\\sec ^{4}{\\frac {\\chi }{2}}+{\\frac {A\\cos \\left({\\frac {\\alpha }{\\hbar \\nu }}\\ln \\tan ^{2}{\\frac {\\chi }{2}}\\right)}{\\sin ^{2}{\\frac {\\chi }{2}}\\cos {\\frac {\\chi }{2}}}}\\right]^{2}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V=-\\alpha /r}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {d\\sigma }{d\\Omega }}=\\left({\\frac {1}{n}}\\right){\\frac {dN}{d\\Omega }}=\\left({\\frac {\\alpha }{4E}}\\right)^{2}\\csc ^{4}{\\frac {\\chi }{2}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}{\\mathcal {L}}_{\\mathrm {QCD} }&={\\bar {\\psi }}_{i}\\left(i\\gamma ^{\\mu }(D_{\\mu })_{ij}-m\\,\\delta _{ij}\\right)\\psi _{j}-{\\frac {1}{4}}G_{\\mu \\nu }^{a}G_{a}^{\\mu \\nu }\\\\&={\\bar {\\psi }}_{i}(i\\gamma ^{\\mu }\\partial _{\\mu }-m)\\psi _{i}-gG_{\\mu }^{a}{\\bar {\\psi }}_{i}\\gamma ^{\\mu }T_{ij}^{a}\\psi _{j}-{\\frac {1}{4}}G_{\\mu \\nu }^{a}G_{a}^{\\mu \\nu }\\,,\\\\\\end{aligned}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\mathcal {L}}_{EW}={\\mathcal {L}}_{g}+{\\mathcal {L}}_{f}+{\\mathcal {L}}_{h}+{\\mathcal {L}}_{y}.\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\mathcal {L}}_{g}=-{\\frac {1}{4}}W_{a}^{\\mu \\nu }W_{\\mu \\nu }^{a}-{\\frac {1}{4}}B^{\\mu \\nu }B_{\\mu \\nu }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\mathcal {L}}_{f}={\\overline {Q}}_{i}iD\\!\\!\\!\\!/\\;Q_{i}+{\\overline {u}}_{i}^{c}iD\\!\\!\\!\\!/\\;u_{i}^{c}+{\\overline {d}}_{i}^{c}iD\\!\\!\\!\\!/\\;d_{i}^{c}+{\\overline {L}}_{i}iD\\!\\!\\!\\!/\\;L_{i}+{\\overline {e}}_{i}^{c}iD\\!\\!\\!\\!/\\;e_{i}^{c}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\mathcal {L}}_{h}=|D_{\\mu }h|^{2}-\\lambda \\left(|h|^{2}-{\\frac {v^{2}}{2}}\\right)^{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\mathcal {L}}_{y}=-y_{u\\,ij}\\epsilon ^{ab}\\,h_{b}^{\\dagger }\\,{\\overline {Q}}_{ia}u_{j}^{c}-y_{d\\,ij}\\,h\\,{\\overline {Q}}_{i}d_{j}^{c}-y_{e\\,ij}\\,h\\,{\\overline {L}}_{i}e_{j}^{c}+h.c.\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\mathcal {L}}={\\bar {\\psi }}(i\\gamma ^{\\mu }D_{\\mu }-m)\\psi -{\\frac {1}{4}}F_{\\mu \\nu }F^{\\mu \\nu }\\;,\\,\\!}"
+        }
+    ],
+    "optics": [
+        {
+            "arr": [],
+            "latex": "{\\displaystyle P=1/f\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle m=-x_{2}/x_{1}=y_{2}/y_{1}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle m=\\theta _{2}/\\theta _{1}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {N} ={\\frac {1}{\\mu _{0}}}\\mathbf {E} \\times \\mathbf {B} =\\mathbf {E} \\times \\mathbf {H} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi _{N}=\\int _{S}\\mathbf {N} \\cdot \\mathrm {d} \\mathbf {S} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle E_{\\mathrm {rms} }={\\sqrt {\\langle E^{2}\\rangle }}=E/{\\sqrt {2}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle p_{EM}=U/c\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle P_{EM}=I/c=p_{EM}/At\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {\\hat {n}} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathrm {d} \\mathbf {A} =\\mathbf {\\hat {n}} \\mathrm {d} A\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {\\hat {e}} _{\\angle }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {\\hat {n}} \\cdot \\mathbf {\\hat {e}} _{\\angle }\\mathrm {d} A=\\mathbf {\\hat {e}} _{\\angle }\\cdot \\mathrm {d} \\mathbf {A} =\\cos \\theta \\mathrm {d} A\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle H_{e}=\\mathrm {d} Q/\\left(\\mathbf {\\hat {e}} _{\\angle }\\cdot \\mathrm {d} \\mathbf {A} \\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\omega _{e}=\\mathrm {d} Q/\\mathrm {d} V\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Q=\\int \\Phi \\mathrm {d} t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi =I\\mathrm {d} \\Omega \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi =\\iint L\\left(\\mathbf {\\hat {e}} _{\\angle }\\cdot \\mathrm {d} \\mathbf {A} \\right)\\mathrm {d} \\Omega }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi =\\int E\\left(\\mathbf {\\hat {e}} _{\\angle }\\cdot \\mathrm {d} \\mathbf {A} \\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi =\\int M\\left(\\mathbf {\\hat {e}} _{\\angle }\\cdot \\mathrm {d} \\mathbf {A} \\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle J=E+M\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Q=\\iint \\Phi _{\\lambda }{\\mathrm {d} \\lambda \\mathrm {d} t}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Q=\\iint \\Phi _{\\nu }\\mathrm {d} \\nu \\mathrm {d} t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi =\\iint I_{\\lambda }\\mathrm {d} \\lambda \\mathrm {d} \\Omega }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi =\\iint I_{\\nu }\\mathrm {d} \\nu \\mathrm {d} \\Omega }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi =\\iiint L_{\\lambda }\\mathrm {d} \\lambda \\left(\\mathbf {\\hat {e}} _{\\angle }\\cdot \\mathrm {d} \\mathbf {A} \\right)\\mathrm {d} \\Omega }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi =\\iiint L_{\\nu }\\mathrm {d} \\nu \\left(\\mathbf {\\hat {e}} _{\\angle }\\cdot \\mathrm {d} \\mathbf {A} \\right)\\mathrm {d} \\Omega \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi =\\iint E_{\\lambda }\\mathrm {d} \\lambda \\left(\\mathbf {\\hat {e}} _{\\angle }\\cdot \\mathrm {d} \\mathbf {A} \\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi =\\iint E_{\\nu }\\mathrm {d} \\nu \\left(\\mathbf {\\hat {e}} _{\\angle }\\cdot \\mathrm {d} \\mathbf {A} \\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\langle u\\rangle \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\langle u\\rangle ={\\frac {1}{2}}\\left(\\epsilon \\mathbf {E} ^{2}+\\mu \\mathbf {B} ^{2}\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {p} _{\\mathrm {p} }=q\\mathbf {A} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {p} _{\\mathrm {k} }=m\\mathbf {v} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {p} =m\\mathbf {v} +q\\mathbf {A} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\langle \\mathbf {S} \\rangle \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=\\langle \\mathbf {S} \\rangle =E_{\\mathrm {rms} }^{2}/c\\mu _{0}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I={\\frac {P_{0}}{\\Omega \\left|r\\right|^{2}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\lambda =\\lambda _{0}{\\sqrt {\\frac {c-v}{c+v}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle v=|\\Delta \\lambda |c/\\lambda _{0}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\cos \\theta ={\\frac {c}{nv}}={\\frac {1}{v{\\sqrt {\\epsilon \\mu }}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\left|\\mathbf {E} \\right|={\\sqrt {\\frac {\\epsilon }{\\mu }}}\\left|\\mathbf {H} \\right|\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {E} =\\mathbf {E} _{0}\\sin(kx-\\omega t)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {B} =\\mathbf {B} _{0}\\sin(kx-\\omega t)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\sin \\theta _{c}={\\frac {n_{2}}{n_{1}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {1}{x_{1}}}+{\\frac {1}{x_{2}}}={\\frac {1}{f}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {1}{f}}=\\left({\\frac {n_{\\mathrm {lens} }}{{n}_{\\mathrm {med} }}}-1\\right)\\left({\\frac {1}{r_{1}}}-{\\frac {1}{r_{2}}}\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle x_{2}=-x_{1}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {1}{x_{1}}}+{\\frac {1}{x_{2}}}={\\frac {1}{f}}={\\frac {2}{r}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {n_{1}}{x_{1}}}+{\\frac {n_{2}}{x_{2}}}={\\frac {\\left(n_{2}-n_{1}\\right)}{r}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {n_{1}}{n_{2}}}={\\frac {v_{2}}{v_{1}}}={\\frac {\\lambda _{2}}{\\lambda _{1}}}={\\sqrt {\\frac {\\epsilon _{1}\\mu _{1}}{\\epsilon _{2}\\mu _{2}}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\tan \\theta _{B}=n_{2}/n_{1}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=I_{0}\\cos ^{2}\\theta \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle N\\lambda /n_{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle 2L=(N+1/2)\\lambda /n_{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\delta }{2\\pi }}\\lambda =a\\left(\\sin \\theta +\\sin \\alpha \\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\theta _{R}=1.22\\lambda /\\,\\!d}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\delta }{2\\pi }}\\lambda =2d\\sin \\theta \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\delta /2\\pi =n\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\delta /2\\pi =n/2\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle n\\in \\mathbf {N} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\phi ={\\frac {2\\pi a}{\\lambda }}\\sin \\theta \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=I_{0}\\left[{\\frac {\\sin \\left(\\phi /2\\right)}{\\left(\\phi /2\\right)}}\\right]^{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\delta ={\\frac {2\\pi d}{\\lambda }}\\sin \\theta \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=I_{0}\\left[{\\frac {\\sin \\left(N\\delta /2\\right)}{\\sin \\left(\\delta /2\\right)}}\\right]^{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=I_{0}\\left[{\\frac {\\sin \\left(\\phi /2\\right)}{\\left(\\phi /2\\right)}}{\\frac {\\sin \\left(N\\delta /2\\right)}{\\sin \\left(\\delta /2\\right)}}\\right]^{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=I_{0}\\left({\\frac {2J_{1}(ka\\sin \\theta )}{ka\\sin \\theta }}\\right)^{2}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle A\\left(\\mathbf {r} \\right)\\propto \\iint _{\\mathrm {aperture} }E_{\\mathrm {inc} }\\left(\\mathbf {r} '\\right)~{\\frac {e^{ik\\left|\\mathbf {r} -\\mathbf {r} '\\right|}}{4\\pi \\left|\\mathbf {r} -\\mathbf {r} '\\right|}}\\mathrm {d} x'\\mathrm {d} y'}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle A\\left(\\mathbf {r} \\right)\\propto {\\frac {e^{ikr}}{4\\pi r}}\\iint _{\\mathrm {aperture} }E_{\\mathrm {inc} }\\left(\\mathbf {r} '\\right)e^{-ik\\left[\\sin \\theta \\left(\\cos \\phi x'+\\sin \\phi y'\\right)\\right]}\\mathrm {d} x'\\mathrm {d} y'}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {\\hat {n}} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {r} _{0}\\cdot \\mathbf {\\hat {n}} =\\left|\\mathbf {r} _{0}\\right|\\cos \\alpha _{0}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {r} \\cdot \\mathbf {\\hat {n}} =\\left|\\mathbf {r} \\right|\\cos \\alpha \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\left|\\mathbf {r} \\right|\\left|\\mathbf {r} _{0}\\right|\\ll \\lambda \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle A\\mathbf {(} \\mathbf {r} )={\\frac {-i}{2\\lambda }}\\iint _{\\mathrm {aperture} }{\\frac {e^{i\\mathbf {k} \\cdot \\left(\\mathbf {r} +\\mathbf {r} _{0}\\right)}}{\\left|\\mathbf {r} \\right|\\left|\\mathbf {r} _{0}\\right|}}\\left[\\cos \\alpha _{0}-\\cos \\alpha \\right]\\mathrm {d} S\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle A\\left(\\mathbf {r} \\right)=-{\\frac {1}{4\\pi }}\\iint _{\\mathrm {aperture} }{\\frac {e^{i\\mathbf {k} \\cdot \\mathbf {r} _{0}}}{\\left|\\mathbf {r} _{0}\\right|}}\\left[i\\left|\\mathbf {k} \\right|U_{0}\\left(\\mathbf {r} _{0}\\right)\\cos {\\alpha }+{\\frac {\\partial A_{0}\\left(\\mathbf {r} _{0}\\right)}{\\partial n}}\\right]\\mathrm {d} S}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle D_{L}={\\sqrt {\\frac {L}{4\\pi F}}}\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle m_{j}=-{\\frac {5}{2}}\\log _{10}\\left|{\\frac {F_{j}}{F_{j}^{0}}}\\right|\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle M=m-5\\left[\\left(\\log _{10}{D_{L}}\\right)-1\\right]\\!\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mu =m-M\\!\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U-B=M_{U}-M_{B}\\!\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle B-V=M_{B}-M_{V}\\!\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}C_{\\mathrm {bol} }&=m_{\\mathrm {bol} }-V\\\\&=M_{\\mathrm {bol} }-M_{V}\\end{aligned}}\\!\\,}"
+        }
+    ],
+    "quantum mechanics": [
+        {
+            "arr": [],
+            "latex": "{\\displaystyle i\\hbar {\\frac {\\partial }{\\partial t}}|\\psi (t)\\rangle ={\\hat {H}}|\\psi (t)\\rangle }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\rho =\\left|\\Psi \\right|^{2}=\\Psi ^{*}\\Psi }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {j} ={\\frac {-i\\hbar }{2m}}\\left(\\Psi ^{*}\\nabla \\Psi -\\Psi \\nabla \\Psi ^{*}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle ={\\frac {\\hbar }{m}}\\mathrm {Im} (\\Psi ^{*}\\nabla \\Psi )=\\mathrm {Re} (\\Psi ^{*}{\\frac {\\hbar }{im}}\\nabla \\Psi )}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Psi =\\Psi \\left(\\mathbf {r} ,\\mathbf {s_{z}} ,t\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle |\\Psi \\rangle =\\sum _{s_{z1}}\\sum _{s_{z2}}\\cdots \\sum _{s_{zN}}\\int _{V_{1}}\\int _{V_{2}}\\cdots \\int _{V_{N}}\\mathrm {d} \\mathbf {r} _{1}\\mathrm {d} \\mathbf {r} _{2}\\cdots \\mathrm {d} \\mathbf {r} _{N}\\Psi |\\mathbf {r} ,\\mathbf {s_{z}} \\rangle }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Psi =\\prod _{n=1}^{N}\\Psi \\left(\\mathbf {r} _{n},s_{zn},t\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}\\Phi (\\mathbf {p} ,s_{z},t)&={\\frac {1}{{\\sqrt {2\\pi \\hbar }}^{3}}}\\int \\limits _{\\mathrm {all\\,space} }e^{-i\\mathbf {p} \\cdot \\mathbf {r} /\\hbar }\\Psi (\\mathbf {r} ,s_{z},t)\\mathrm {d} ^{3}\\mathbf {r} \\\\&\\upharpoonleft \\downharpoonright \\\\\\Psi (\\mathbf {r} ,s_{z},t)&={\\frac {1}{{\\sqrt {2\\pi \\hbar }}^{3}}}\\int \\limits _{\\mathrm {all\\,space} }e^{+i\\mathbf {p} \\cdot \\mathbf {r} /\\hbar }\\Phi (\\mathbf {p} ,s_{z},t)\\mathrm {d} ^{3}\\mathbf {p} _{n}\\\\\\end{aligned}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle P=\\sum _{s_{zN}}\\cdots \\sum _{s_{z2}}\\sum _{s_{z1}}\\int _{V_{N}}\\cdots \\int _{V_{2}}\\int _{V_{1}}\\left|\\Psi \\right|^{2}\\mathrm {d} ^{3}\\mathbf {r} _{1}\\mathrm {d} ^{3}\\mathbf {r} _{2}\\cdots \\mathrm {d} ^{3}\\mathbf {r} _{N}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle P=\\sum _{s_{zN}}\\cdots \\sum _{s_{z2}}\\sum _{s_{z1}}\\int \\limits _{\\mathrm {all\\,space} }\\cdots \\int \\limits _{\\mathrm {all\\,space} }\\;\\int \\limits _{\\mathrm {all\\,space} }\\left|\\Psi \\right|^{2}\\mathrm {d} ^{3}\\mathbf {r} _{1}\\mathrm {d} ^{3}\\mathbf {r} _{2}\\cdots \\mathrm {d} ^{3}\\mathbf {r} _{N}=1\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {P} =(E/c,\\mathbf {p} )=\\hbar (\\omega /c,\\mathbf {k} )=\\hbar \\mathbf {K} }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle i\\hbar {\\frac {\\partial }{\\partial t}}\\Psi ={\\hat {H}}\\Psi }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\hat {H}}\\Psi =E\\Psi }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\langle \\,\\rangle }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {d}{dt}}{\\hat {A}}(t)={\\frac {i}{\\hbar }}[{\\hat {H}},{\\hat {A}}(t)]+{\\frac {\\partial {\\hat {A}}(t)}{\\partial t}},}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {d}{dt}}\\langle {\\hat {A}}\\rangle ={\\frac {1}{i\\hbar }}\\langle [{\\hat {A}},{\\hat {H}}]\\rangle +\\left\\langle {\\frac {\\partial {\\hat {A}}}{\\partial t}}\\right\\rangle }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle m{\\frac {d}{dt}}\\langle \\mathbf {r} \\rangle =\\langle \\mathbf {p} \\rangle }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {d}{dt}}\\langle \\mathbf {p} \\rangle =-\\langle \\nabla V\\rangle }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\hat {H}}={\\frac {{\\hat {p}}^{2}}{2m}}+V(x)=-{\\frac {\\hbar ^{2}}{2m}}{\\frac {d^{2}}{dx^{2}}}+V(x)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}{\\hat {H}}&=\\sum _{n=1}^{N}{\\frac {{\\hat {p}}_{n}^{2}}{2m_{n}}}+V(x_{1},x_{2},\\cdots x_{N})\\\\&=-{\\frac {\\hbar ^{2}}{2}}\\sum _{n=1}^{N}{\\frac {1}{m_{n}}}{\\frac {\\partial ^{2}}{\\partial x_{n}^{2}}}+V(x_{1},x_{2},\\cdots x_{N})\\end{aligned}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle E\\Psi =-{\\frac {\\hbar ^{2}}{2m}}{\\frac {d^{2}}{dx^{2}}}\\Psi +V\\Psi }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle E\\Psi =-{\\frac {\\hbar ^{2}}{2}}\\sum _{n=1}^{N}{\\frac {1}{m_{n}}}{\\frac {\\partial ^{2}}{\\partial x_{n}^{2}}}\\Psi +V\\Psi \\,.}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Psi (x,t)=\\psi (x)e^{-iEt/\\hbar }\\,.}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\|\\psi \\|^{2}=\\int |\\psi (x)|^{2}\\,dx.\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Psi =e^{-iEt/\\hbar }\\psi (x_{1},x_{2}\\cdots x_{N})}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Psi =e^{-i{Et/\\hbar }}\\prod _{n=1}^{N}\\psi (x_{n})\\,,\\quad V(x_{1},x_{2},\\cdots x_{N})=\\sum _{n=1}^{N}V(x_{n})\\,.}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}{\\hat {H}}&={\\frac {{\\hat {\\mathbf {p} }}\\cdot {\\hat {\\mathbf {p} }}}{2m}}+V(\\mathbf {r} )\\\\&=-{\\frac {\\hbar ^{2}}{2m}}\\nabla ^{2}+V(\\mathbf {r} )\\end{aligned}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}{\\hat {H}}&=\\sum _{n=1}^{N}{\\frac {{\\hat {\\mathbf {p} }}_{n}\\cdot {\\hat {\\mathbf {p} }}_{n}}{2m_{n}}}+V(\\mathbf {r} _{1},\\mathbf {r} _{2},\\cdots \\mathbf {r} _{N})\\\\&=-{\\frac {\\hbar ^{2}}{2}}\\sum _{n=1}^{N}{\\frac {1}{m_{n}}}\\nabla _{n}^{2}+V(\\mathbf {r} _{1},\\mathbf {r} _{2},\\cdots \\mathbf {r} _{N})\\end{aligned}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\nabla _{n}^{2}={\\frac {\\partial ^{2}}{{\\partial x_{n}}^{2}}}+{\\frac {\\partial ^{2}}{{\\partial y_{n}}^{2}}}+{\\frac {\\partial ^{2}}{{\\partial z_{n}}^{2}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle E\\Psi =-{\\frac {\\hbar ^{2}}{2m}}\\nabla ^{2}\\Psi +V\\Psi }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle E\\Psi =-{\\frac {\\hbar ^{2}}{2}}\\sum _{n=1}^{N}{\\frac {1}{m_{n}}}\\nabla _{n}^{2}\\Psi +V\\Psi }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Psi =\\psi (\\mathbf {r} )e^{-iEt/\\hbar }}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Psi =e^{-iEt/\\hbar }\\psi (\\mathbf {r} _{1},\\mathbf {r} _{2}\\cdots \\mathbf {r} _{N})}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Psi =e^{-i{Et/\\hbar }}\\prod _{n=1}^{N}\\psi (\\mathbf {r} _{n})\\,,\\quad V(\\mathbf {r} _{1},\\mathbf {r} _{2},\\cdots \\mathbf {r} _{N})=\\sum _{n=1}^{N}V(\\mathbf {r} _{n})}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\hat {H}}={\\frac {{\\hat {p}}^{2}}{2m}}+V(x,t)=-{\\frac {\\hbar ^{2}}{2m}}{\\frac {\\partial ^{2}}{\\partial x^{2}}}+V(x,t)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\hat {H}}=\\sum _{n=1}^{N}{\\frac {{\\hat {p}}_{n}^{2}}{2m_{n}}}+V(x_{1},x_{2},\\cdots x_{N},t)=-{\\frac {\\hbar ^{2}}{2}}\\sum _{n=1}^{N}{\\frac {1}{m_{n}}}{\\frac {\\partial ^{2}}{\\partial x_{n}^{2}}}+V(x_{1},x_{2},\\cdots x_{N},t)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle i\\hbar {\\frac {\\partial }{\\partial t}}\\Psi =-{\\frac {\\hbar ^{2}}{2m}}{\\frac {\\partial ^{2}}{\\partial x^{2}}}\\Psi +V\\Psi }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle i\\hbar {\\frac {\\partial }{\\partial t}}\\Psi =-{\\frac {\\hbar ^{2}}{2}}\\sum _{n=1}^{N}{\\frac {1}{m_{n}}}{\\frac {\\partial ^{2}}{\\partial x_{n}^{2}}}\\Psi +V\\Psi \\,.}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Psi =\\Psi (x,t)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Psi =\\Psi (x_{1},x_{2}\\cdots x_{N},t)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}{\\hat {H}}&={\\frac {{\\hat {\\mathbf {p} }}\\cdot {\\hat {\\mathbf {p} }}}{2m}}+V(\\mathbf {r} ,t)\\\\&=-{\\frac {\\hbar ^{2}}{2m}}\\nabla ^{2}+V(\\mathbf {r} ,t)\\\\\\end{aligned}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}{\\hat {H}}&=\\sum _{n=1}^{N}{\\frac {{\\hat {\\mathbf {p} }}_{n}\\cdot {\\hat {\\mathbf {p} }}_{n}}{2m_{n}}}+V(\\mathbf {r} _{1},\\mathbf {r} _{2},\\cdots \\mathbf {r} _{N},t)\\\\&=-{\\frac {\\hbar ^{2}}{2}}\\sum _{n=1}^{N}{\\frac {1}{m_{n}}}\\nabla _{n}^{2}+V(\\mathbf {r} _{1},\\mathbf {r} _{2},\\cdots \\mathbf {r} _{N},t)\\end{aligned}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle i\\hbar {\\frac {\\partial }{\\partial t}}\\Psi =-{\\frac {\\hbar ^{2}}{2m}}\\nabla ^{2}\\Psi +V\\Psi }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle i\\hbar {\\frac {\\partial }{\\partial t}}\\Psi =-{\\frac {\\hbar ^{2}}{2}}\\sum _{n=1}^{N}{\\frac {1}{m_{n}}}\\nabla _{n}^{2}\\Psi +V\\Psi }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Psi =\\Psi (\\mathbf {r} ,t)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Psi =\\Psi (\\mathbf {r} _{1},\\mathbf {r} _{2},\\cdots \\mathbf {r} _{N},t)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle K_{\\mathrm {max} }=hf-\\Phi \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\phi =hf_{0}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle p=hf/c=h/\\lambda \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\sigma (x)\\sigma (p)\\geq {\\frac {\\hbar }{2}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\sigma (E)\\sigma (t)\\geq {\\frac {\\hbar }{2}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\sigma (n)\\sigma (\\phi )\\geq {\\frac {\\hbar }{2}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}\\sigma (A)^{2}&=\\langle (A-\\langle A\\rangle )^{2}\\rangle \\\\&=\\langle A^{2}\\rangle -\\langle A\\rangle ^{2}\\end{aligned}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\sigma (A)\\sigma (B)\\geq {\\frac {1}{2}}\\langle i[{\\hat {A}},{\\hat {B}}]\\rangle }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle N(E)=8{\\sqrt {2}}\\pi m^{3/2}E^{1/2}/h^{3}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle P(E_{i})=g(E_{i})/(e^{(E-\\mu )/kT}+1)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle P(E_{i})=g(E_{i})/(e^{(E_{i}-\\mu )/kT}-1)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}&\\Vert \\mathbf {s} \\Vert ={\\sqrt {s\\,(s+1)}}\\,\\hbar \\\\&m_{s}\\in \\{-s,-s+1\\cdots s-1,s\\}\\\\\\end{aligned}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}&\\ell \\in \\{0\\cdots n-1\\}\\\\&m_{\\ell }\\in \\{-\\ell ,-\\ell +1\\cdots \\ell -1,\\ell \\}\\\\\\end{aligned}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}&j=\\ell +s\\\\&m_{j}\\in \\{|\\ell -s|,|\\ell -s|+1\\cdots |\\ell +s|-1,|\\ell +s|\\}\\\\\\end{aligned}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle |\\mathbf {S} |=\\hbar {\\sqrt {s(s+1)}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle |\\mathbf {L} |=\\hbar {\\sqrt {\\ell (\\ell +1)}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {J} =\\mathbf {L} +\\mathbf {S} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle |\\mathbf {J} |=\\hbar {\\sqrt {j(j+1)}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle S_{z}=m_{s}\\hbar \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle L_{z}=m_{\\ell }\\hbar \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mu }}_{\\ell }=-e\\mathbf {L} /2m_{e}=g_{\\ell }{\\frac {\\mu _{B}}{\\hbar }}\\mathbf {L} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mu _{\\ell ,z}=-m_{\\ell }\\mu _{B}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mu }}_{s}=-e\\mathbf {S} /m_{e}=g_{s}{\\frac {\\mu _{B}}{\\hbar }}\\mathbf {S} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mu _{s,z}=-eS_{z}/m_{e}=g_{s}eS_{z}/2m_{e}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U=-{\\boldsymbol {\\mu }}\\cdot \\mathbf {B} =-\\mu _{z}B\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle E_{n}=-me^{4}/8\\epsilon _{0}^{2}h^{2}n^{2}=-13.61eV/n^{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {1}{\\lambda }}=R\\left({\\frac {1}{n_{j}^{2}}}-{\\frac {1}{n_{i}^{2}}}\\right),\\,n_{j}<n_{i}\\,\\!}"
+        }
+    ],
+    "special relativity": [
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\gamma ={\\frac {1}{\\sqrt {1-\\beta ^{2}}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {v}{c}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle t'=\\gamma t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle t={\\frac {2h}{c}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle c^{2}\\left({\\frac {t'}{2}}\\right)^{2}=h^{2}+v^{2}\\left({\\frac {t'}{2}}\\right)^{2}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle t'}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\left({\\frac {t'}{2}}\\right)^{2}={\\frac {h^{2}}{c^{2}-v^{2}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {t'}{2}}={\\frac {h}{\\sqrt {c^{2}-v^{2}}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle t'={\\frac {2h}{\\sqrt {c^{2}-v^{2}}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle t'={\\frac {2h}{c}}{\\frac {1}{\\sqrt {1-{\\frac {v^{2}}{c^{2}}}}}}={\\frac {t}{\\sqrt {1-{\\frac {v^{2}}{c^{2}}}}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle t'=\\gamma t}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\ell '={\\frac {\\ell }{\\gamma }}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\ell =vt'\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\ell '=vt=v\\left({\\frac {t'}{\\gamma }}\\right)={\\frac {\\ell }{\\gamma }}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle x'=\\gamma \\left(x-vt\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle y'=y\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle z'=z\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle t'=\\gamma \\left(t-{\\frac {vx}{c^{2}}}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {x'}{\\gamma }}=x-vt}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle x'=\\gamma \\left(x-vt\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle x=\\gamma \\left(x'+vt'\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle y'=y\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle z'=z\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle x=\\gamma \\left(\\gamma \\left(x-vt\\right)+vt'\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle x=\\gamma \\left(\\gamma x-\\gamma vt+vt'\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle x=\\gamma ^{2}x-\\gamma ^{2}vt+\\gamma vt'\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\gamma vt'=\\gamma ^{2}vt-\\gamma ^{2}x+x\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\gamma vt'=\\gamma ^{2}vt+x\\left(1-\\gamma ^{2}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\gamma vt'=\\gamma ^{2}vt+x\\left(1-{\\frac {1}{1-\\beta ^{2}}}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\gamma vt'=\\gamma ^{2}vt+x\\left({\\frac {1-\\beta ^{2}}{1-\\beta ^{2}}}-{\\frac {1}{1-\\beta ^{2}}}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\gamma vt'=\\gamma ^{2}vt-x\\left({\\frac {\\beta ^{2}}{1-\\beta ^{2}}}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\gamma vt'=\\gamma ^{2}vt-\\gamma ^{2}\\beta ^{2}x\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle t'=\\gamma \\left(t-\\beta {\\frac {x}{c}}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle t'=\\gamma \\left(t-{\\frac {vx}{c^{2}}}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle x'=\\gamma \\left(x-vt\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle y'=y\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle z'=z\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle t'=\\gamma \\left(t-{\\frac {vx}{c^{2}}}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V'_{x}={\\frac {V_{x}-v}{1-{\\frac {V_{x}v}{c^{2}}}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V'_{y}={\\frac {V_{y}}{\\gamma \\left(1-{\\frac {V_{x}v}{c^{2}}}\\right)}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V'_{z}={\\frac {V_{z}}{\\gamma \\left(1-{\\frac {V_{x}v}{c^{2}}}\\right)}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle dx'=\\gamma \\left(dx-vdt\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle dy'=dy\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle dz'=dz\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle dt'=\\gamma \\left(dt-{\\frac {vdx}{c^{2}}}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {dx'}{dt'}}={\\frac {\\gamma \\left(dx-vdt\\right)}{\\gamma \\left(dt-{\\frac {vdx}{c^{2}}}\\right)}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {dx'}{dt'}}={\\frac {dx-vdt}{dt-{\\frac {vdx}{c^{2}}}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {dx'}{dt'}}={\\frac {{\\frac {dx}{dt}}-v}{1-{\\frac {dx}{dt}}{\\frac {v}{c^{2}}}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V_{x}={\\frac {dx}{dt}}\\,\\quad V'_{x}={\\frac {dx'}{dt'}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V'_{x}={\\frac {V_{x}-v}{1-{\\frac {V_{x}v}{c^{2}}}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V'_{y}={\\frac {V_{y}}{\\gamma \\left(1-{\\frac {V_{x}v}{c^{2}}}\\right)}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V'_{z}={\\frac {V_{z}}{\\gamma \\left(1-{\\frac {V_{x}v}{c^{2}}}\\right)}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mathsf {a}}}\\cdot {\\boldsymbol {\\mathsf {b}}}=\\eta ({\\boldsymbol {\\mathsf {a}}},{\\boldsymbol {\\mathsf {b}}})}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\eta }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\eta ={\\begin{pmatrix}-1&0&0&0\\\\0&1&0&0\\\\0&0&1&0\\\\0&0&0&1\\end{pmatrix}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle ds^{2}=dx^{2}+dy^{2}+dz^{2}-c^{2}dt^{2}={\\begin{pmatrix}cdt&dx&dy&dz\\end{pmatrix}}{\\begin{pmatrix}-1&0&0&0\\\\0&1&0&0\\\\0&0&1&0\\\\0&0&0&1\\end{pmatrix}}{\\begin{pmatrix}cdt\\\\dx\\\\dy\\\\dz\\end{pmatrix}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\eta ({\\boldsymbol {\\mathsf {a}}}',{\\boldsymbol {\\mathsf {b}}}')=\\eta \\left(\\Lambda {\\boldsymbol {\\mathsf {a}}},\\Lambda {\\boldsymbol {\\mathsf {b}}}\\right)=\\eta ({\\boldsymbol {\\mathsf {a}}},{\\boldsymbol {\\mathsf {b}}})}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle x'=\\gamma x-\\gamma \\beta ct\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle y'=y\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle z'=z\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle ct'=\\gamma ct-\\gamma \\beta x\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{pmatrix}ct'\\\\x'\\\\y'\\\\z'\\end{pmatrix}}={\\begin{pmatrix}\\gamma &-\\gamma \\beta &0&0\\\\-\\gamma \\beta &\\gamma &0&0\\\\0&0&1&0\\\\0&0&0&1\\end{pmatrix}}{\\begin{pmatrix}ct\\\\x\\\\y\\\\z\\end{pmatrix}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mathsf {a}}}'=\\Lambda {\\boldsymbol {\\mathsf {a}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mathsf {a}}}'}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mathsf {a}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mathsf {a}}}'}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {r} \\cdot \\mathbf {r} \\equiv r^{2}\\equiv x_{1}^{2}+x_{2}^{2}+x_{3}^{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mathsf {X}}}\\cdot {\\boldsymbol {\\mathsf {X}}}=\\left(c\\tau \\right)^{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}&\\left(ct\\right)^{2}-\\left(x_{1}^{2}+x_{2}^{2}+x_{3}^{2}\\right)\\\\&=\\left(ct\\right)^{2}-r^{2}\\\\&=-\\chi ^{2}=\\left(c\\tau \\right)^{2}\\end{aligned}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {p} =\\gamma m\\mathbf {u} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {p} \\cdot \\mathbf {p} \\equiv p^{2}\\equiv p_{1}^{2}+p_{2}^{2}+p_{3}^{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mathsf {P}}}=m{\\boldsymbol {\\mathsf {U}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mathsf {P}}}\\cdot {\\boldsymbol {\\mathsf {P}}}=\\left(mc\\right)^{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}&\\left({\\frac {E}{c}}\\right)^{2}-\\left(p_{1}^{2}+p_{2}^{2}+p_{3}^{2}\\right)\\\\&=\\left({\\frac {E}{c}}\\right)^{2}-p^{2}\\\\&=\\left(mc\\right)^{2}\\end{aligned}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle E^{2}=\\left(pc\\right)^{2}+\\left(mc^{2}\\right)^{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {u} ={\\frac {\\mathrm {d} \\mathbf {r} }{\\mathrm {d} t}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mathsf {U}}}={\\frac {\\mathrm {d} {\\boldsymbol {\\mathsf {X}}}}{\\mathrm {d} \\tau }}=\\gamma \\left(c,\\mathbf {u} \\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mathsf {U}}}\\cdot {\\boldsymbol {\\mathsf {U}}}=c^{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {a} ={\\frac {\\mathrm {d} \\mathbf {u} }{\\mathrm {d} t}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mathsf {A}}}={\\frac {\\mathrm {d} {\\boldsymbol {\\mathsf {U}}}}{\\mathrm {d} \\tau }}=\\gamma \\left(c{\\frac {\\mathrm {d} \\gamma }{\\mathrm {d} t}},{\\frac {\\mathrm {d} \\gamma }{\\mathrm {d} t}}\\mathbf {u} +\\gamma \\mathbf {a} \\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mathsf {A}}}\\cdot {\\boldsymbol {\\mathsf {U}}}=0\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {f} ={\\frac {\\mathrm {d} \\mathbf {p} }{\\mathrm {d} t}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mathsf {F}}}={\\frac {\\mathrm {d} {\\boldsymbol {\\mathsf {P}}}}{\\mathrm {d} \\tau }}=\\gamma m\\left(c{\\frac {\\mathrm {d} \\gamma }{\\mathrm {d} t}},{\\frac {\\mathrm {d} \\gamma }{\\mathrm {d} t}}\\mathbf {u} +\\gamma \\mathbf {a} \\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\boldsymbol {\\mathsf {F}}}\\cdot {\\boldsymbol {\\mathsf {U}}}=0\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\nu '=\\gamma \\nu \\left(1-\\beta \\cos \\theta \\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\nu '=\\nu {\\frac {\\sqrt {1-\\beta }}{\\sqrt {1+\\beta }}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\nu '=\\gamma \\nu }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{pmatrix}{\\frac {E'}{c}}\\\\p'_{x}\\\\p'_{y}\\\\p'_{z}\\end{pmatrix}}={\\begin{pmatrix}\\gamma &-\\gamma \\beta &0&0\\\\-\\gamma \\beta &\\gamma &0&0\\\\0&0&1&0\\\\0&0&0&1\\end{pmatrix}}{\\begin{pmatrix}{\\frac {E}{c}}\\\\p_{x}\\\\p_{y}\\\\p_{z}\\end{pmatrix}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {E'}{c}}=\\gamma {\\frac {E}{c}}-\\gamma \\beta p_{x}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle p_{x}=\\|p\\|\\cos \\theta }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\vec {p}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {h\\nu '}{c}}=\\gamma {\\frac {h\\nu }{c}}-\\gamma \\beta \\left\\Vert p\\right\\|\\cos \\theta =\\gamma {\\frac {h\\nu }{c}}-\\gamma \\beta {\\frac {h\\nu }{c}}\\cos \\theta }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\nu '=\\gamma \\nu -\\gamma \\beta \\nu \\cos \\theta =\\gamma \\nu \\left(1-\\beta \\cos \\theta \\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}\\nu '&=\\gamma \\nu \\left(1-\\beta \\right)\\\\&=\\nu {\\frac {1}{\\sqrt {1-\\beta ^{2}}}}\\left(1-\\beta \\right)\\\\&=\\nu {\\frac {1}{\\sqrt {\\left(1-\\beta \\right)\\left(1+\\beta \\right)}}}\\left(1-\\beta \\right)\\\\&=\\nu {\\frac {\\sqrt {1-\\beta }}{\\sqrt {1+\\beta }}}\\end{aligned}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\nu '=\\gamma \\nu }"
+        }
+    ],
+    "thermodynamics": [
+        {
+            "arr": [],
+            "latex": "{\\displaystyle c=}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle T}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\partial S}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle N}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\partial T}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\beta =-}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle 1}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\partial V}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\partial p}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\alpha =}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle 1}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\partial V}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle V}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\partial T}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U(S,V)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle H(S,p)=U+pV}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle A(T,V)=U-TS}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle G(T,p)=H-TS}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\beta =1/k_{B}T\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\tau =k_{B}T\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\tau =k_{B}\\left(\\partial U/\\partial S\\right)_{N}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle 1/\\tau =1/k_{B}\\left(\\partial S/\\partial U\\right)_{N}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle S=-k_{B}\\sum _{i}p_{i}\\ln p_{i}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle S=-\\left(\\partial F/\\partial T\\right)_{V}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle S=-\\left(\\partial G/\\partial T\\right)_{N,P}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle P=-\\left(\\partial F/\\partial V\\right)_{T,N}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle P=-\\left(\\partial U/\\partial V\\right)_{S,N}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U=\\sum _{i}E_{i}\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle H=U+pV\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle G=H-TS\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mu _{i}=\\left(\\partial U/\\partial N_{i}\\right)_{N_{j\\neq i},S,V}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mu _{i}=\\left(\\partial F/\\partial N_{i}\\right)_{T,V}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mu _{i}=\\left(\\partial G/\\partial N_{i}\\right)_{T,P}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mu _{i}/\\tau =-1/k_{B}\\left(\\partial S/\\partial N_{i}\\right)_{U,V}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle F=U-TS\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Omega =U-TS-\\mu N\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi =S-U/T\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Xi =\\Phi -pV/T\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C=\\partial Q/\\partial T\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{p}=\\partial H/\\partial T\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{mp}=\\partial ^{2}Q/\\partial m\\partial T\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{np}=\\partial ^{2}Q/\\partial n\\partial T\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{V}=\\partial U/\\partial T\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{mV}=\\partial ^{2}Q/\\partial m\\partial T\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{nV}=\\partial ^{2}Q/\\partial n\\partial T\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle L=\\partial Q/\\partial m\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\gamma =C_{p}/C_{V}=c_{p}/c_{V}=C_{mp}/C_{mV}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\nabla T\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle P=\\mathrm {d} Q/\\mathrm {d} t\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=\\mathrm {d} P/\\mathrm {d} A}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Q=\\iint \\mathbf {q} \\cdot \\mathrm {d} \\mathbf {S} \\mathrm {d} t\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Q=0,\\quad \\Delta U=-W\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle p_{1}V_{1}^{\\gamma }=p_{2}V_{2}^{\\gamma }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle T_{1}V_{1}^{\\gamma -1}=T_{2}V_{2}^{\\gamma -1}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle p_{1}^{1-\\gamma }T_{1}^{\\gamma }=p_{2}^{1-\\gamma }T_{2}^{\\gamma }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta U=0,\\quad W=Q\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle W=kTN\\ln(V_{2}/V_{1})\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle W=p\\Delta V,\\quad q=\\Delta H+p\\delta V\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle W=0,\\quad Q=\\Delta U\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta U=0\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle W=\\int _{V_{1}}^{V_{2}}p\\mathrm {d} V\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle W=\\oint _{\\mathrm {cycle} }p\\mathrm {d} V\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle pV=nRT=kTN\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {p_{1}V_{1}}{p_{2}V_{2}}}={\\frac {n_{1}T_{1}}{n_{2}T_{2}}}={\\frac {N_{1}T_{1}}{N_{2}T_{2}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle p={\\frac {Nm\\langle v^{2}\\rangle }{3V}}={\\frac {nM_{m}\\langle v^{2}\\rangle }{3V}}={\\frac {1}{3}}\\rho \\langle v^{2}\\rangle \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Q=0}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\delta W=-pdV\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle -p\\Delta V\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle 0\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle -nRT\\ln {\\frac {V_{2}}{V_{1}}}\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle -nRT\\ln {\\frac {P_{1}}{P_{2}}}\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {PV^{\\gamma }(V_{f}^{1-\\gamma }-V_{i}^{1-\\gamma })}{1-\\gamma }}=C_{V}\\left(T_{2}-T_{1}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{p}={\\frac {5}{2}}nR\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{p}={\\frac {7}{2}}nR\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{V}={\\frac {3}{2}}nR\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{V}={\\frac {5}{2}}nR\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta U=C_{V}\\Delta T\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Q+W\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Q_{p}-p\\Delta V\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Q\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{V}\\left(T_{2}-T_{1}\\right)\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle 0\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Q=-W\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle W\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{V}\\left(T_{2}-T_{1}\\right)\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle H=U+pV\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{p}\\left(T_{2}-T_{1}\\right)\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Q_{V}+V\\Delta p\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle 0\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{p}\\left(T_{2}-T_{1}\\right)\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta S=C_{V}\\ln {T_{2} \\over T_{1}}+nR\\ln {V_{2} \\over V_{1}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta S=C_{p}\\ln {T_{2} \\over T_{1}}-nR\\ln {p_{2} \\over p_{1}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{p}\\ln {\\frac {T_{2}}{T_{1}}}\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{V}\\ln {\\frac {T_{2}}{T_{1}}}\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle nR\\ln {\\frac {V_{2}}{V_{1}}}\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {Q}{T}}\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{p}\\ln {\\frac {V_{2}}{V_{1}}}+C_{V}\\ln {\\frac {p_{2}}{p_{1}}}=0\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {V}{T}}\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {p}{T}}\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle pV\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle pV^{\\gamma }\\;}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle S=k_{\\mathrm {B} }\\ln \\Omega }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle dS={\\frac {\\delta Q}{T}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\theta =k_{B}T/mc^{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle P\\left(v\\right)=4\\pi \\left({\\frac {m}{2\\pi k_{B}T}}\\right)^{3/2}v^{2}e^{-mv^{2}/2k_{B}T}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle f(p)={\\frac {1}{4\\pi m^{3}c^{3}\\theta K_{2}(1/\\theta )}}e^{-\\gamma (p)/\\theta }}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle S=-k_{B}\\sum _{i}P_{i}\\ln P_{i}=k_{\\mathrm {B} }\\ln \\Omega \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle P_{i}=1/\\Omega \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta S=\\int _{Q_{1}}^{Q_{2}}{\\frac {\\mathrm {d} Q}{T}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta S=k_{B}N\\ln {\\frac {V_{2}}{V_{1}}}+NC_{V}\\ln {\\frac {T_{2}}{T_{1}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {F} _{\\mathrm {S} }=-T\\nabla S\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\langle E_{\\mathrm {k} }\\rangle ={\\frac {1}{2}}kT\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U=d_{f}\\langle E_{\\mathrm {k} }\\rangle ={\\frac {d_{f}}{2}}kT\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\langle v\\rangle ={\\sqrt {\\frac {8k_{B}T}{\\pi m}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle v_{\\mathrm {rms} }={\\sqrt {\\langle v^{2}\\rangle }}={\\sqrt {\\frac {3k_{B}T}{m}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle v_{\\mathrm {mode} }={\\sqrt {\\frac {2k_{B}T}{m}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\ell =1/{\\sqrt {2}}n\\sigma \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle dU=\\delta Q-\\delta W}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\int \\left(T\\,dS-p\\,dV+\\sum _{i}\\mu _{i}dN_{i}\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle S,V,\\{N_{i}\\}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle F}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U-TS}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle T,V,\\{N_{i}\\}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle H}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U+pV}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle S,p,\\{N_{i}\\}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle G}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U+pV-TS}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle T,p,\\{N_{i}\\}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Omega }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Phi _{\\text{G}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U-TS-}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\sum _{i}\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mu _{i}N_{i}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle T,V,\\{\\mu _{i}\\}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle dU\\left(S,V,{N_{i}}\\right)=TdS-pdV+\\sum _{i}\\mu _{i}dN_{i}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle dH\\left(S,p,{N_{i}}\\right)=TdS+Vdp+\\sum _{i}\\mu _{i}dN_{i}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle dF\\left(T,V,{N_{i}}\\right)=-SdT-pdV+\\sum _{i}\\mu _{i}dN_{i}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle dG\\left(T,p,{N_{i}}\\right)=-SdT+Vdp+\\sum _{i}\\mu _{i}dN_{i}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U(S,V)\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle H(S,P)\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle F(T,V)\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle G(T,P)\\,}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\left({\\frac {\\partial T}{\\partial V}}\\right)_{S}=-\\left({\\frac {\\partial P}{\\partial S}}\\right)_{V}={\\frac {\\partial ^{2}U}{\\partial S\\partial V}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\left({\\frac {\\partial T}{\\partial P}}\\right)_{S}=+\\left({\\frac {\\partial V}{\\partial S}}\\right)_{P}={\\frac {\\partial ^{2}H}{\\partial S\\partial P}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle +\\left({\\frac {\\partial S}{\\partial V}}\\right)_{T}=\\left({\\frac {\\partial P}{\\partial T}}\\right)_{V}=-{\\frac {\\partial ^{2}F}{\\partial T\\partial V}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle -\\left({\\frac {\\partial S}{\\partial P}}\\right)_{T}=\\left({\\frac {\\partial V}{\\partial T}}\\right)_{P}={\\frac {\\partial ^{2}G}{\\partial T\\partial P}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\left({\\partial S \\over \\partial U}\\right)_{V,N}={1 \\over T}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\left({\\partial S \\over \\partial V}\\right)_{N,U}={p \\over T}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\left({\\partial S \\over \\partial N}\\right)_{V,U}=-{\\mu  \\over T}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\left({\\partial T \\over \\partial S}\\right)_{V}={T \\over C_{V}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\left({\\partial T \\over \\partial S}\\right)_{P}={T \\over C_{P}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle -\\left({\\partial p \\over \\partial V}\\right)_{T}={1 \\over {VK_{T}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle H=-T^{2}\\left({\\frac {\\partial \\left(G/T\\right)}{\\partial T}}\\right)_{p}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U=-T^{2}\\left({\\frac {\\partial \\left(F/T\\right)}{\\partial T}}\\right)_{V}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle G=-V^{2}\\left({\\frac {\\partial \\left(F/V\\right)}{\\partial V}}\\right)_{T}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\left({\\frac {\\partial H}{\\partial p}}\\right)_{T}=V-T\\left({\\frac {\\partial V}{\\partial T}}\\right)_{P}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\left({\\frac {\\partial U}{\\partial V}}\\right)_{T}=T\\left({\\frac {\\partial P}{\\partial T}}\\right)_{V}-P}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle U=Nk_{B}T^{2}\\left({\\frac {\\partial \\ln Z}{\\partial T}}\\right)_{V}~}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle S={\\frac {U}{T}}+N~}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle S={\\frac {U}{T}}+Nk_{B}\\ln Z-Nk\\ln N+Nk~}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Z_{t}={\\frac {(2\\pi mk_{B}T)^{\\frac {3}{2}}V}{h^{3}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Z_{v}={\\frac {1}{1-e^{\\frac {-h\\omega }{2\\pi k_{B}T}}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Z_{r}={\\frac {2Ik_{B}T}{\\sigma ({\\frac {h}{2\\pi }})^{2}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mu _{JT}=\\left({\\frac {\\partial T}{\\partial p}}\\right)_{H}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle K_{T}=-{1 \\over V}\\left({\\partial V \\over \\partial p}\\right)_{T,N}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\alpha _{p}={\\frac {1}{V}}\\left({\\frac {\\partial V}{\\partial T}}\\right)_{p}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{p}=\\left({\\partial Q_{rev} \\over \\partial T}\\right)_{p}=\\left({\\partial U \\over \\partial T}\\right)_{p}+p\\left({\\partial V \\over \\partial T}\\right)_{p}=\\left({\\partial H \\over \\partial T}\\right)_{p}=T\\left({\\partial S \\over \\partial T}\\right)_{p}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{V}=\\left({\\partial Q_{rev} \\over \\partial T}\\right)_{V}=\\left({\\partial U \\over \\partial T}\\right)_{V}=T\\left({\\partial S \\over \\partial T}\\right)_{V}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\left({\\frac {\\partial T}{\\partial p}}\\right)_{H}\\left({\\frac {\\partial p}{\\partial H}}\\right)_{T}\\left({\\frac {\\partial H}{\\partial T}}\\right)_{p}=-1}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}\\left({\\frac {\\partial T}{\\partial p}}\\right)_{H}&=-\\left({\\frac {\\partial H}{\\partial p}}\\right)_{T}\\left({\\frac {\\partial T}{\\partial H}}\\right)_{p}\\\\&={\\frac {-1}{\\left({\\frac {\\partial H}{\\partial T}}\\right)_{p}}}\\left({\\frac {\\partial H}{\\partial p}}\\right)_{T}\\end{aligned}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{p}=\\left({\\frac {\\partial H}{\\partial T}}\\right)_{p}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Rightarrow \\left({\\frac {\\partial T}{\\partial p}}\\right)_{H}=-{\\frac {1}{C_{p}}}\\left({\\frac {\\partial H}{\\partial p}}\\right)_{T}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle dU=\\delta Q_{rev}-\\delta W_{rev},}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\delta S={\\frac {\\delta Q_{rev}}{T}},\\delta W_{rev}=p\\delta V}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle dU=T\\delta S-p\\delta V}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\left({\\frac {\\partial U}{\\partial T}}\\right)_{V}=T\\left({\\frac {\\partial S}{\\partial T}}\\right)_{V}-p\\left({\\frac {\\partial V}{\\partial T}}\\right)_{V};C_{V}=\\left({\\frac {\\partial U}{\\partial T}}\\right)_{V}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Rightarrow C_{V}=T\\left({\\frac {\\partial S}{\\partial T}}\\right)_{V}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=\\sigma \\epsilon \\left(T_{\\mathrm {external} }^{4}-T_{\\mathrm {system} }^{4}\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta U=NC_{V}\\Delta T\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle C_{p}-C_{V}=nR\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\lambda _{\\mathrm {net} }=\\sum _{j}\\lambda _{j}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {1}{\\lambda }}_{\\mathrm {net} }=\\sum _{j}\\left({\\frac {1}{\\lambda }}_{j}\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\eta =\\left|{\\frac {W}{Q_{H}}}\\right|\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\eta _{c}=1-\\left|{\\frac {Q_{L}}{Q_{H}}}\\right|=1-{\\frac {T_{L}}{T_{H}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle K=\\left|{\\frac {Q_{L}}{W}}\\right|\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle K_{C}={\\frac {|Q_{L}|}{|Q_{H}|-|Q_{L}|}}={\\frac {T_{L}}{T_{H}-T_{L}}}\\,\\!}"
+        }
+    ],
+    "wave theory": [
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {A} =A\\mathbf {\\hat {e}} _{\\parallel }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {A} =A\\mathbf {\\hat {e}} _{\\bot }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {r} \\equiv r\\mathbf {\\hat {e}} _{\\parallel }\\equiv \\mathbf {d} -\\mathbf {r} _{0}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\lambda =\\mathrm {d} r/\\mathrm {d} N\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\lambda =\\Delta r/\\Delta N\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {k} =\\left(2\\pi /\\lambda \\right)\\mathbf {\\hat {e}} _{\\angle }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {k} =\\left(1/\\lambda \\right)\\mathbf {\\hat {e}} _{\\angle }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle f=\\mathrm {d} N/\\mathrm {d} t\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle f=\\Delta N/\\Delta t\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle f=1/T\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\omega =2\\pi f=2\\pi /T\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {v} =\\mathbf {\\hat {e}} _{\\parallel }\\left(\\partial A/\\partial t\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {v} =\\mathbf {\\hat {e}} _{\\bot }\\left(\\partial A/\\partial t\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {a} =\\mathbf {\\hat {e}} _{\\parallel }\\left(\\partial ^{2}A/\\partial t^{2}\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {a} =\\mathbf {\\hat {e}} _{\\bot }\\left(\\partial ^{2}A/\\partial t^{2}\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {r} =\\mathbf {r} _{2}-\\mathbf {r} _{1}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {v} _{\\mathrm {p} }=\\mathbf {\\hat {e}} _{\\parallel }\\left(\\Delta r/\\Delta t\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {v} _{\\mathrm {p} }=\\lambda f\\mathbf {\\hat {e}} _{\\parallel }=\\left(\\omega /k\\right)\\mathbf {\\hat {e}} _{\\parallel }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {v} _{\\mathrm {g} }=\\mathbf {\\hat {e}} _{\\parallel }\\left(\\partial \\omega /\\partial k\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta t=t_{2}-t_{1}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta \\phi =\\phi _{2}-\\phi _{1}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\mathbf {k} \\cdot \\mathbf {r} \\mp \\omega t+\\phi =2\\pi N\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\Delta r}{\\lambda }}={\\frac {\\Delta t}{T}}={\\frac {\\phi }{2\\pi }}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle h_{AM}=A/A_{m}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle h_{FM}=\\Delta f/f_{m}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle h_{PM}=\\Delta \\phi \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle Z=\\rho v\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle z=ZS\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\beta =\\left(\\mathrm {dB} \\right)10\\log \\left|{\\frac {I}{I_{0}}}\\right|\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle n,m\\in \\mathbf {Z} \\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle f_{n}={\\frac {v}{\\lambda _{n}}}={\\frac {nv}{2L}}=nf_{1}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\langle P\\rangle =\\mu v\\omega ^{2}x_{m}^{2}/2\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=P_{0}/(\\Omega r^{2})\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle I=P/A=\\rho v\\omega ^{2}s_{m}^{2}/2\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle f_{\\mathrm {beat} }=\\left|f_{2}-f_{1}\\right|\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle f_{r}=f_{0}{\\frac {V\\pm v_{r}}{V\\mp v_{0}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\sin \\theta ={\\frac {v}{v_{s}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle p_{0}=\\left(v\\rho \\omega \\right)s_{0}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle s=\\left[2s_{0}\\cos \\left(\\omega 't\\right)\\right]\\cos \\left(\\omega t\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle s=s_{0}\\cos(kr-\\omega t)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle p=p_{0}\\sin(kr-\\omega t)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle P={\\frac {\\mathrm {d} E}{\\mathrm {d} t}}=-{\\frac {32}{5}}\\,{\\frac {G^{4}}{c^{5}}}\\,{\\frac {(m_{1}m_{2})^{2}(m_{1}+m_{2})}{r^{5}}}}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\mathrm {d} r}{\\mathrm {d} t}}=-{\\frac {64}{5}}{\\frac {G^{3}}{c^{5}}}{\\frac {(m_{1}m_{2})(m_{1}+m_{2})}{r^{3}}}\\ }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle t={\\frac {5}{256}}{\\frac {c^{5}}{G^{3}}}{\\frac {r_{0}^{4}}{(m_{1}m_{2})(m_{1}+m_{2})}}\\ }"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle y_{\\mathrm {net} }=\\sum _{i=1}^{N}y_{i}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\omega _{d}=\\omega _{\\mathrm {nat} }\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\Delta r}{\\lambda }}={\\frac {\\Delta t}{T}}={\\frac {\\phi }{2\\pi }}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle n={\\frac {\\lambda }{\\Delta x}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle n+{\\frac {1}{2}}={\\frac {\\lambda }{\\Delta x}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle v={\\sqrt {\\frac {p}{\\rho }}}={\\sqrt {\\frac {F}{\\mu }}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle D\\left(\\omega ,k\\right)=0}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\omega =\\omega \\left(k\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle A=A\\left(t\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle f=f\\left(t\\right)}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\nabla ^{2}A={\\frac {1}{v_{\\parallel }^{2}}}{\\frac {\\partial ^{2}A}{\\partial t^{2}}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle A\\left(\\mathbf {r} ,t\\right)=A\\left(x-v_{\\parallel }t\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle A=A_{0}e^{-bt}\\sin \\left(kx-\\omega t+\\phi \\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\frac {\\partial y}{\\partial t}}+\\alpha y{\\frac {\\partial y}{\\partial x}}+{\\frac {\\partial ^{3}y}{\\partial x^{3}}}=0\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle A(x,t)={\\frac {3v_{\\parallel }}{\\alpha }}\\mathrm {sech} ^{2}\\left[{\\frac {\\sqrt {v_{\\parallel }}}{2}}\\left(x-v_{\\parallel }t\\right)\\right]\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle A_{n}=\\left|A_{n}\\right|e^{i\\left(\\mathbf {k} _{\\mathrm {n} }\\cdot \\mathbf {r} -\\omega _{n}t+\\phi _{n}\\right)}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle A=\\sum _{n=1}^{N}A_{n}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle A={\\sqrt {AA^{*}}}={\\sqrt {\\sum _{n=1}^{N}\\sum _{m=1}^{N}\\left|A_{n}\\right|\\left|A_{m}\\right|\\cos \\left[\\left(\\mathbf {k} _{n}-\\mathbf {k} _{m}\\right)\\cdot \\mathbf {r} +\\left(\\omega _{n}-\\omega _{m}\\right)t+\\left(\\phi _{n}-\\phi _{m}\\right)\\right]}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}y_{1}+y_{2}&=A\\sin \\left(kx-\\omega t\\right)\\\\&+A\\sin \\left(kx+\\omega t\\right)\\end{aligned}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle y=2A\\sin \\left(kx\\right)\\cos \\left(\\omega t\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\langle \\omega \\rangle ={\\frac {\\omega _{1}+\\omega _{2}}{2}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\langle k\\rangle ={\\frac {k_{1}+k_{2}}{2}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta \\omega =\\omega _{1}-\\omega _{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle \\Delta k=k_{1}-k_{2}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}y_{1}+y_{2}&=A\\sin \\left(k_{1}x-\\omega _{1}t\\right)\\\\&+A\\sin \\left(k_{2}x+\\omega _{2}t\\right)\\end{aligned}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle y=2A\\sin \\left(\\langle k\\rangle x-\\langle \\omega \\rangle t\\right)\\cos \\left({\\frac {\\Delta k}{2}}x-{\\frac {\\Delta \\omega }{2}}t\\right)\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle {\\begin{aligned}y_{1}+y_{2}&=2A\\sin \\left(kx-\\omega t\\right)\\\\&+A\\sin \\left(kx+\\omega t+\\phi \\right)\\end{aligned}}\\,\\!}"
+        },
+        {
+            "arr": [],
+            "latex": "{\\displaystyle y=2A\\cos \\left({\\frac {\\phi }{2}}\\right)\\sin \\left(kx-\\omega t+{\\frac {\\phi }{2}}\\right)\\,\\!}"
+        }
+    ]
 }

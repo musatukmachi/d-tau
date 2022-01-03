@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const bp = require('body-parser');
 const crud = require('./crud');
+const scripts = require('./scripts');
 const app = express();
 const port = 3000;
 
@@ -11,17 +12,19 @@ app.use(bp.urlencoded({ extended: true }));
 
 app.use(express.static(path.join(__dirname, '../client/')));
 
-// get all
+// get
 app.get('/properties', (req, res) =>
 {
     const json = crud.readProps();
+    scripts.generateUnits(json);
     res.send(json);
 });
 
 app.get('/equations', (req, res) =>
 {
     const json = crud.readEqs();
-    res.send(json);
+    if (req.query.branch) res.send(json[req.query.branch]);
+    else res.send(json);
 });
 
 // add equation
