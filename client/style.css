@@ -62,3 +62,7 @@ textarea {
 .submit:hover {
     background-color: #eee;
 }
+
+.latex-equations {
+    margin-left: 200px;
+}

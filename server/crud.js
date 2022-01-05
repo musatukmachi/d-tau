@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const scripts = require('./scripts');
 
 module.exports = {
     // read file

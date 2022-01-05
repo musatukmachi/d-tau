@@ -6,15 +6,15 @@
         },
         {
             "arr": [],
-            "latex": "{\\displaystyle m=\\iint \\sigma \\mathrm {d} S}"
+            "latex": "{\\displaystyle m=\\iint \\sigma \\mathrm{d} S}"
         },
         {
             "arr": [],
-            "latex": "{\\displaystyle m=\\iiint \\rho \\mathrm {d} V}"
+            "latex": "{\\displaystyle m=\\iiint \\rho \\mathrm{d} V}"
         },
         {
             "arr": [],
-            "latex": "{\\displaystyle \\mathbf {m} =\\mathbf {r} m}"
+            "latex": "{\\displaystyle \\mathbf{m} =\\mathbf{r} m}"
         },
         {
             "arr": [],
@@ -466,7 +466,7 @@
         },
         {
             "arr": [],
-            "latex": "{\\displaystyle \\omega _{\\mathrm {res} }={\\sqrt {\\omega ^{2}-\\left({\\frac {\\kappa }{4m}}\\right)^{2}}}}"
+            "latex": "{\\displaystyle \\omega_{\\mathrm {res} }={\\sqrt {\\omega ^{2}-\\left({\\frac {\\kappa }{4m}}\\right)^{2}}}}"
         },
         {
             "arr": [],
@@ -482,7 +482,7 @@
         },
         {
             "arr": [],
-            "latex": "{\\displaystyle \\omega '={\\sqrt {{\\frac {k}{m}}-\\left({\\frac {b}{2m}}\\right)^{2}}}}"
+            "latex": "{\\displaystyle \\omega' ={\\sqrt {{\\frac {k}{m}}-\\left({\\frac {b}{2m}}\\right)^{2}}}}"
         },
         {
             "arr": [],

@@ -16,7 +16,6 @@ app.use(express.static(path.join(__dirname, '../client/')));
 app.get('/properties', (req, res) =>
 {
     const json = crud.readProps();
-    scripts.generateUnits(json);
     res.send(json);
 });
 

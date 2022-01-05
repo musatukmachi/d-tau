@@ -1,6 +1,7 @@
 var content = document.querySelector('textarea');
 var options = document.querySelector('.options');
 options.style.display = 'none';
+var latexDiv = document.querySelector('.latex-equations');
 
 httpGet = (url) => {
     content.value = '';
@@ -12,7 +13,36 @@ httpGet = (url) => {
     .then((res) =>
     {
         content.value += JSON.stringify(res, null, 2);
-    });  
+        latexDiv.innerHTML = '';
+        if (Array.isArray(res))
+        {
+            for (let i = 0; i < res.length; i++)
+            {
+                let eq = res[i]["latex"];
+                latexDiv.innerHTML += '<p>$$ ' + eq + ' $$</p>';
+            }
+            MathJax.typesetPromise();
+            console.log(res.length); // num of eqs
+        }
+        else
+        {
+            let count = 0; // to remove
+            for (let key in res)
+            {
+                let arr = res[key];
+                for (let i = 0; i < arr.length; i++)
+                {
+                    let eq = null;
+                    if (arr[i]["latex"]) eq = arr[i]["latex"];
+                    else eq = arr[i]["symbol"];
+                    latexDiv.innerHTML += '<p>$$ ' + eq + ' $$</p>';
+                    count++
+                }
+            }
+            MathJax.typesetPromise();
+            console.log(count); // nm of eqs
+        }
+    });
 }
 
 httpPost = (url, body) => {
@@ -31,65 +61,28 @@ httpPost = (url, body) => {
     });
 }
 
-document.querySelector('.prop-all').addEventListener("click", () =>
+// create eventListeners for routes
+(() => 
 {
-    httpGet('http://localhost:3000/properties');
-});
-
-document.querySelector('.eq-all').addEventListener("click", () =>
-{
-    httpGet('http://localhost:3000/equations');
-});
-
-document.querySelector('.cm').addEventListener("click", () =>
-{
-    httpGet('http://localhost:3000/equations?branch=classical+mechanics');
-});
-
-document.querySelector('.thermo').addEventListener("click", () =>
-{
-    httpGet('http://localhost:3000/equations?branch=thermodynamics');
-});
-
-document.querySelector('.wave').addEventListener("click", () =>
-{
-    httpGet('http://localhost:3000/equations?branch=wave+theory');
-});
-
-document.querySelector('.sr').addEventListener("click", () =>
-{
-    httpGet('http://localhost:3000/equations?branch=special+relativity');
-});
-
-document.querySelector('.fm').addEventListener("click", () =>
-{
-    httpGet('http://localhost:3000/equations?branch=fluid+mechanics');
-});
-
-document.querySelector('.em').addEventListener("click", () =>
-{
-    httpGet('http://localhost:3000/equations?branch=electromagnetism');
-});
-
-document.querySelector('.grav').addEventListener("click", () =>
-{
-    httpGet('http://localhost:3000/equations?branch=gravitation');
-});
-
-document.querySelector('.opt').addEventListener("click", () =>
-{
-    httpGet('http://localhost:3000/equations?branch=optics');
-});
-
-document.querySelector('.qm').addEventListener("click", () =>
-{
-    httpGet('http://localhost:3000/equations?branch=quantum+mechanics');
-});
-
-document.querySelector('.pp').addEventListener("click", () =>
-{
-    httpGet('http://localhost:3000/equations?branch=particle+physics');
-});
+    const routes = {
+        '.prop-all': 'properties',
+        '.eq-all': 'equations',
+        '.cm': 'equations?branch=classical+mechanics',
+        '.thermo': 'equations?branch=thermodynamics',
+        '.wave': 'equations?branch=wave+theory',
+        '.sr': 'equations?branch=special+relativity',
+        '.fm': 'equations?branch=fluid+mechanics',
+        '.em': 'equations?branch=electromagnetism',
+        '.grav': 'equations?branch=gravitation',
+        '.opt': 'equations?branch=optics',
+        '.qm': 'equations?branch=quantum+mechanics',
+        '.pp': 'equations?branch=particle+physics'
+    }
+    for (let className in routes)
+    {
+        document.querySelector(className).addEventListener("click", () => httpGet('http://localhost:3000/' + routes[className]));
+    } 
+})();
 
 document.querySelector('.eq-add').addEventListener("click", () =>
 {
